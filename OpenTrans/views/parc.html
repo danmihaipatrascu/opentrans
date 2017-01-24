@@ -1,0 +1,14 @@
+﻿<div class="parc">
+    <style type="text/css">
+        .parc img {
+            max-width: 300px;
+        }
+    </style>
+    <div class="row">
+        <div class="col-md-4 col-sm-10 col-sm-offset-1" ng-repeat="masina in masini">
+            <h3>{{masina.nume}}</h3>
+            <img ng-src="{{masina.url}}" alt="{{masina.nume}}" 
+                 ng-click="openModalImage(masina.url, masina.nume)"/>
+        </div>
+    </div>
+</div>

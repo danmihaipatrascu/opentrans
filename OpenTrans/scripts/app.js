@@ -1,5 +1,7 @@
 //create a module myApp
-var myApp = angular.module('myApp', ['ngRoute']);
+var myApp = angular.module('myApp',
+    ['ngRoute',
+    'ui.bootstrap']);
 
 //Now Configure  our  routing
 myApp.config(function ($routeProvider, $locationProvider) {
@@ -9,6 +11,11 @@ myApp.config(function ($routeProvider, $locationProvider) {
     {
         controller: 'HomeCtrl',
         templateUrl: 'views/home.html'
+    })
+
+    .when('/parc', {
+        controller: 'ParcCtrl',
+        templateUrl: 'views/parc.html'
     })
 
      // set route for the about page
