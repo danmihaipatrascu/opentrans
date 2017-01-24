@@ -454,6 +454,7 @@
     <Content Include="views\aboutus.html" />
     <Content Include="views\contact.html" />
     <Content Include="views\home.html" />
+    <Content Include="views\test.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

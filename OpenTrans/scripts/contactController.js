@@ -1,4 +1,4 @@
-﻿function ContactController($scope, $http) {
+﻿myApp.controller('ContactCtrl', function ($scope, $http) {
     $scope.success = false;
     $scope.error = false;
     $scope.send = function () {
@@ -12,8 +12,8 @@
             url: 'https://api.postmarkapp.com/email',
             method: 'POST',
             data: {
-                'From': 'foo@foo.com',
-                'To': 'bar@bar.com',
+                'From': 'beni_titoc@yhaoo.com',
+                'To': 'beni_titoc@yhaoo.com',
                 'HtmlBody': htmlBody,
                 'Subject': 'New Contact Form Submission'
             },
@@ -31,4 +31,4 @@
             $scope.error = true;
         });
     }
-}
+});

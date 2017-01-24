@@ -54,8 +54,3 @@ myApp.controller('HomeCtrl', function ($scope) {
 myApp.controller('AboutCtrl', function ($scope) {
     $scope.message = "(',')---I am on About page---(',')";
 });
-
-// set for Contact Controller
-myApp.controller('ContactCtrl', function ($scope) {
-    $scope.message = "(',')---I am on Contact page---(',')";
-});
