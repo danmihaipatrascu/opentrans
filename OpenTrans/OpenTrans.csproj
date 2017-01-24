@@ -449,6 +449,7 @@
     <Content Include="node_modules\jquery\src\var\toString.js" />
     <Content Include="node_modules\jquery\src\wrap.js" />
     <Content Include="scripts\app.js" />
+    <Content Include="scripts\contactController.js" />
     <Content Include="styles\global.css" />
     <Content Include="views\aboutus.html" />
     <Content Include="views\contact.html" />
