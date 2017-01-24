@@ -1,3 +1,13 @@
+div.container {
+    margin-right: 50px;
+    margin-left: 50px;
+    width: initial;
+}
+
+a.navbar-brand{
+    padding: 0;
+}
+
 img.am-nav {
     height: 50px;
 }
@@ -5,61 +15,107 @@ img.am-nav {
 nav.am-nav {
 }
 
-.home .cover {
-    display: inline;
-    float: left;
-    width: 50%;
-    transition: width 0.5s ease;
-    height: 500px;
-    background-position: center;
-    position: relative;
-}
-
-.home h2{
-    color: white;
-    font-size: 30px;
-    font-weight: bold;
-    padding: 20px;
-}
-
-.home h2.black{
-    color: black;
-}
-
-.home .pull-down {
-    position: absolute;
-    bottom: 0;
-}
-
-.home .description {
-    min-height: 100px;
-    background-color: rgba(0, 0, 0, 0.8);
-    padding: 15px;
-}
-
-    .home .description .description-text {
-        font-size: 0.875em;
-        line-height: 1.5625em;
-        color: white;
-        font-weight: bold;
+@media (min-width:1023px) {
+    .home .cover {
+        display: inline;
+        float: left;
+        width: 50%;
+        transition: width 0.5s ease;
+        height: 500px;
+        background-position: center;
+        position: relative;
     }
 
-.home .cover:hover .description {
-    opacity: 1;
-    transition: opacity 1s ease;
+    .home h2 {
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+        padding: 20px;
+    }
+
+        .home h2.black {
+            color: black;
+        }
+
+    .home .pull-down {
+        position: absolute;
+        bottom: 0;
+    }
+
+    .home .description {
+        min-height: 100px;
+        background-color: rgba(0, 0, 0, 0.8);
+        padding: 15px;
+    }
+
+        .home .description .description-text {
+            font-size: 0.875em;
+            line-height: 1.5625em;
+            color: white;
+            font-weight: bold;
+        }
+
+    .home .cover:hover .description {
+        opacity: 1;
+        transition: opacity 1s ease;
+    }
+
+    .home .cover .description {
+        opacity: 0;
+        transition: opacity 1s ease;
+    }
+
+    .home .hovered {
+        width: 60% !important;
+        transition: width 0.5s ease;
+    }
+
+    .home .not-hovered {
+        width: 40% !important;
+        transition: width 0.5s ease;
+    }
 }
 
-.home .cover .description {
-    opacity: 0;
-    transition: opacity 1s ease;
+img.am-nav {
+    height: 50px;
 }
 
-.home .hovered {
-    width: 60% !important;
-    transition: width 0.5s ease;
+nav.am-nav {
 }
 
-.home .not-hovered {
-    width: 40% !important;
-    transition: width 0.5s ease;
+@media (max-width:1023px) {
+    .home .cover {
+        height: 500px;
+        background-position: center;
+        position: relative;
+    }
+
+    .home h2 {
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+        padding: 20px;
+    }
+
+        .home h2.black {
+            color: black;
+        }
+
+    .home .pull-down {
+        position: absolute;
+        bottom: 0;
+    }
+
+    .home .description {
+        min-height: 100px;
+        background-color: rgba(0, 0, 0, 0.8);
+        padding: 15px;
+    }
+
+        .home .description .description-text {
+            font-size: 0.875em;
+            line-height: 1.5625em;
+            color: white;
+            font-weight: bold;
+        }
 }

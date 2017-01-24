@@ -448,6 +448,7 @@
     <Content Include="node_modules\jquery\src\var\support.js" />
     <Content Include="node_modules\jquery\src\var\toString.js" />
     <Content Include="node_modules\jquery\src\wrap.js" />
+    <Content Include="resources\logo.gif" />
     <Content Include="scripts\app.js" />
     <Content Include="scripts\contactController.js" />
     <Content Include="styles\global.css" />
@@ -459,9 +460,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="resources\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
