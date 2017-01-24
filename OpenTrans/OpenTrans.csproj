@@ -237,11 +237,11 @@
     <Content Include="node_modules\bootswatch\yeti\variables.less" />
     <Content Include="node_modules\bootswatch\yeti\_bootswatch.scss" />
     <Content Include="node_modules\bootswatch\yeti\_variables.scss" />
-    <Content Include="node_modules\angular-route\angular-route.min.js.map" />
-    <Content Include="node_modules\angular-route\bower.json" />
-    <Content Include="node_modules\angular-route\LICENSE.md" />
-    <Content Include="node_modules\angular-route\package.json" />
-    <Content Include="node_modules\angular-route\README.md" />
+    <Content Include="node_modules\angular\angular-route\angular-route.min.js.map" />
+    <Content Include="node_modules\angular\angular-route\bower.json" />
+    <Content Include="node_modules\angular\angular-route\LICENSE.md" />
+    <Content Include="node_modules\angular\angular-route\package.json" />
+    <Content Include="node_modules\angular\angular-route\README.md" />
     <Content Include="node_modules\jquery\bower.json" />
     <Content Include="node_modules\jquery\dist\jquery.min.map" />
     <Content Include="node_modules\jquery\package.json" />
@@ -256,9 +256,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="index.html" />
-    <Content Include="node_modules\angular-route\angular-route.js" />
-    <Content Include="node_modules\angular-route\angular-route.min.js" />
-    <Content Include="node_modules\angular-route\index.js" />
+    <Content Include="node_modules\angular\angular-route\angular-route.js" />
+    <Content Include="node_modules\angular\angular-route\angular-route.min.js" />
+    <Content Include="node_modules\angular\angular-route\index.js" />
     <Content Include="node_modules\angular\angular-csp.css" />
     <Content Include="node_modules\angular\angular.js" />
     <Content Include="node_modules\angular\angular.min.js" />
