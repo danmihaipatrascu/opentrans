@@ -1,0 +1,25 @@
+img.am-nav{
+  height:50px;
+}
+
+nav.am-nav{
+}
+
+.home .cover{
+  display: inline;
+  float: left;
+  width: 50%;
+  transition: width 0.5s ease;
+  height: 500px;
+  background-position: center; 
+}
+
+.home .hovered{
+  width: 60% !important;  
+  transition: width 0.5s ease;
+}
+
+.home .not-hovered{
+  width: 40% !important;  
+  transition: width 0.5s ease;
+}

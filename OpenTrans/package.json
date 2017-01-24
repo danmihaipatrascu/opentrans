@@ -1,0 +1,12 @@
+{
+	"version": "1.0.0",
+	"name": "asp.net",
+	"private": true,
+  "devDependencies": {
+    "jquery": "2.2.0",
+    "angular": "~1.2.22",
+    "angular-route": "~1.2.20",
+    "bootstrap": "~3.3.7",
+    "bootswatch": "~3.3.7"
+  }
+}
