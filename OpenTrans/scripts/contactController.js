@@ -1,34 +1,20 @@
 ﻿myApp.controller('ContactCtrl', function ($scope, $http) {
-    $scope.success = false;
-    $scope.error = false;
-    $scope.send = function () {
+    var vm = this;
 
-        var htmlBody = '<div>Name: ' + $scope.user.name + '</div>' +
-                       '<div>Email: ' + $scope.user.email + '</div>' +
-                       '<div>Message: ' + $scope.user.body + '</div>' +
-                       '<div>Date: ' + (new Date()).toString() + '</div>';
+    function initEmailJs() {
+        emailjs.init("user_VOtzoEw2lKT8vCO1OcQXr");
+    };
+    initEmailJs();
 
-        $http({
-            url: 'https://api.postmarkapp.com/email',
-            method: 'POST',
-            data: {
-                'From': 'beni_titoc@yhaoo.com',
-                'To': 'beni_titoc@yhaoo.com',
-                'HtmlBody': htmlBody,
-                'Subject': 'New Contact Form Submission'
-            },
-            headers: {
-                'Accept': 'application/json',
-                'Content-Type': 'application/json',
-                'X-Postmark-Server-Token': '8569dcd45-6a1a-4e7b-ae75-ea37629de4'
-            }
-        }).
-        success(function (data) {
-            $scope.success = true;
-            $scope.user = {};
-        }).
-        error(function (data) {
-            $scope.error = true;
-        });
+    var _send = function () {
+        emailjs.send("opentransservice", "opentransemailtemplate",
+            {
+                name: vm.name,
+                email: vm.email,
+                phone: vm.phone,
+                message: vm.message
+            });
     }
+
+    vm.send = _send;
 });

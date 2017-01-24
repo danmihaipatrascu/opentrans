@@ -28,7 +28,7 @@ myApp.config(function ($routeProvider, $locationProvider) {
    // set route for the contact page
 
     .when('/contact', {
-        controller: 'ContactCtrl',
+        controller: 'ContactCtrl as vm',
         templateUrl: 'views/contact.html'
     })
 

@@ -8,16 +8,20 @@
     <script src="node_modules/angular/angular.min.js"></script>
     <script src="node_modules/angular-route/angular-route.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<<<<<<< HEAD
     <script src="node_modules/angular-ui-bootstrap/dist/ui-bootstrap.js"></script>
     <script src="node_modules/angular-ui-bootstrap/dist/ui-bootstrap-tpls.js"></script>
+=======
 
     <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+>>>>>>> 9c6974bdb25af2f7da6145253634f0a84f9b2d60
 
     <link rel="stylesheet" href="styles/global.css" />
     <script src="scripts/app.js"></script>
 
     <!--controllers-->
     <script src="scripts/contactController.js"></script>
+    <script src="scripts/parcController.js"></script>
 
 </head>
 <body ng-app="myApp">
@@ -34,8 +38,9 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="#home">
-                            <img src="resources/logo.gif" alt="OPENTRANS" />
+                        <a class="navbar-brand" href="#home" style="padding: 15px;">
+                            <span>OPENTRANS</span>
+                            <!--<img src="resources/logo.gif" alt="OPENTRANS" />-->
                         </a>
                     </div>
                     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -43,6 +48,9 @@
                         <ul class="nav navbar-nav">
                             <li ng-class="{ active: isActive('/home')}">
                                 <a href="#home">Home</a>
+                            </li>
+                            <li ng-class="{ active: isActive('/parc')}">
+                                <a href="#parc">Parc Auto</a>
                             </li>
                             <li ng-class="{ active: isActive('/about')}">
                                 <a href="#about">About</a>
