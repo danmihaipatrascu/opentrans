@@ -1,1 +1,1 @@
-# opentrans
+# opentrans v1.0.0
