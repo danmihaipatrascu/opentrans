@@ -1,9 +1,38 @@
 <div class="container">
     <div class="row" style="margin-bottom:15px;">
         <div class="col-md-12">
-            <div class="col-md-offset-1 col-md-6" id="box">
-                <h2 class="colr">Cere oferta!</h2>
-                <hr>
+
+            <div class="col-md-6" id="box" style="text-align:left">
+                <h2 class="callToAction">Adresa contact</h2>
+                <p style="font-size:1.5em">
+                    <strong>S.C. OPENTRANS S.R.L</strong><br>
+                    <i class="glyphicon glyphicon-map-marker"></i> Punct lucru: Cluj Napoca, Str. Cantonului 9B<br><br>
+                    <i class="glyphicon glyphicon-home"></i> Coroieni nr. 141, jud. Maramures <br><br>
+                    <i class="glyphicon glyphicon-phone-alt"></i> tel/fax : 0262-389.419<br>
+                    <i class="glyphicon glyphicon-phone"></i> mobil : 0742-002.975 (Stanciu Ioan)
+                    <br><br>
+                    <i class="glyphicon glyphicon-envelope"></i> email : office@opentrans.ro
+                    <br>
+                    <i class="glyphicon glyphicon-cloud"></i> web: www.opentrans.ro
+                </p>
+            </div>
+
+
+            <div class="col-md-6" id="box">
+                <h2>Contactati-ne pentru orice informatie.</h2>
+                
+
+                <div class="alert alert-success fade in" ng-show="vm.showSuccesAlert">
+                    <a href="#" class="close" data-dismiss="alert">&times;</a>
+                    <p> Mesajul a fost trimis cu succes! Veti fi contactat in cel mai scurt timp.</p>
+                </div>
+
+                <div class="alert alert-danger fade in" ng-show="vm.showErrorAlert">
+                    <a href="#" class="close" data-dismiss="alert">&times;</a>
+                    <strong></strong> <p> Mesajul nu a putut fi trimis! Va rugam sa ne contactati telefonic.</p>
+                </div>
+
+
                 <form class="form-horizontal" name="contactForm" novalidate>
                     <fieldset>
                         <!-- Form Name -->
@@ -12,19 +41,20 @@
                             <div class="col-md-12" ng-class="{ 'has-error' : contactForm.first_name.$invalid && !contactForm.first_name.$pristine }">
                                 <div class="input-group">
                                     <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-                                    <input name="first_name" placeholder="Nume" ng-model="vm.name" class="form-control" type="text" required>
+                                    <input name="first_name" placeholder="Nume" ng-model="vm.name" class="form-control" type="text">
                                 </div>
-                                <span ng-show="contactForm.first_name.$invalid && !contactForm.first_name.$pristine" class="help-block">Username is required.</span>
+                                <!--<span ng-show="contactForm.first_name.$invalid && !contactForm.first_name.$pristine" class="help-block">Username is required.</span>-->
                             </div>
                         </div>
                         <!-- Text input-->
                         <div class="form-group">
-                            <div class="col-md-12" ng-class="{ 'has-error' : contactForm.email.$invalid && !contactForm.email.$pristine }">
+                            <div class="col-md-12">
+                                <!--ng-class="{ 'has-error' : contactForm.email.$invalid && !contactForm.email.$pristine }-->
                                 <div class="input-group">
                                     <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-                                    <input name="email" placeholder="Adresa de e-mail" ng-model="vm.email" class="form-control" type="text" ng-pattern="/^[_a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/">
+                                    <input name="email" placeholder="Adresa de e-mail" ng-model="vm.email" class="form-control" type="text">   <!--ng-pattern="/^[_a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/"-->
                                 </div>
-                                <span ng-show="contactForm.email.$invalid && !contactForm.email.$pristine" class="help-block"> Enter a valid email.</span>
+                                <!--<span ng-show="contactForm.email.$invalid && !contactForm.email.$pristine" class="help-block"> Enter a valid email.</span>-->
                             </div>
                         </div>
                         <!-- Text input-->
@@ -37,12 +67,12 @@
                                 <span ng-show="contactForm.phone.$invalid && !contactForm.phone.$pristine">Numarul de telefon este obligagotriu.</span>
                             </div>
                         </div>
-           
+
                         <div class="form-group" ng-class="{ 'has-error' : contactForm.comment.$invalid && !contactForm.comment.$pristine }">
                             <div class="col-md-12 inputGroupContainer">
                                 <div class="input-group">
                                     <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
-                                    <textarea class="form-control" ng-model="vm.message" rows="6" name="comment" placeholder="Descriere" ng-maxlength="255" ng-minlength="10" required></textarea>
+                                    <textarea class="form-control" ng-model="vm.message" rows="6" name="comment" placeholder="Informatia dorita" ng-maxlength="255" ng-minlength="10" required></textarea>
                                 </div>
                                 <span ng-show="contactForm.comment.$invalid && !contactForm.comment.$pristine" class="help-block"> Enter a Message.</span>
                             </div>
@@ -58,6 +88,37 @@
                 </form>
             </div>
 
+            
+
+            <div class="col-md-12" id="box">
+                <div>
+                    <div id="map"></div>
+                    <script>
+                        function initMap() {
+                            var uluru = { lat: 46.7787, lng: 23.6934 };
+                            var map = new google.maps.Map(document.getElementById('map'), {
+                                zoom: 16,
+                                center: uluru
+                            });
+                            var marker = new google.maps.Marker({
+                                position: uluru,
+                                map: map
+                            });
+                        }
+                    </script>
+
+                    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2E-6gJDnLo4QgEJfrZmUCyONfH09fb4Y&callback=initMap"
+                            async defer>
+                    </script>
+
+                    <style>
+                        #map {
+                            height: 400px;
+                            width: 100%;
+                        }
+                    </style>
+                </div>
+            </div>
         </div>
     </div>
 </div>
