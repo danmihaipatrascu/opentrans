@@ -1,14 +1,65 @@
 ﻿<div class="parc">
     <style type="text/css">
         .parc img {
-            max-width: 300px;
+        }
+
+        .masini-container {
+            padding: 10px;
+        }
+
+        .masina-container {
+            background-color: #354045;
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+        }
+
+            .masina-container img {
+                margin: auto;
+            }
+
+        @media (max-width:1200px) {
+            .masina-container img {
+                height: 200px;
+                width: 300px;
+            }
+        }
+
+        @media (min-width:1200px) {
+            .masina-container img {
+                height: 300px;
+                width: 450px;
+            }
+        }
+
+        .floatingleftmenu {
+            position: fixed;
+            left: 0;
+            top: 20%;
+            width: 170px;
+            z-index: 5;
+            opacity: 0.8;
         }
     </style>
+    <div class="floatingleftmenu">
+        <ul class="nav nav-pills nav-stacked nav-float">
+            <li ng-repeat="tip in tipuri">
+                <a href="#">{{tip}}</a>
+            </li>
+        </ul>
+    </div>
     <div class="row">
-        <div class="col-md-4 col-sm-10 col-sm-offset-1" ng-repeat="masina in masini">
-            <h3>{{masina.nume}}</h3>
-            <img ng-src="{{masina.url}}" alt="{{masina.nume}}" 
-                 ng-click="openModalImage(masina.url, masina.nume)"/>
+        <div class="col-md-10 col-md-offset-2 col-lg-11 col-lg-offset-1">
+            <div class="row masini-container">
+                <div class="col-sm-12 col-md-6" ng-repeat="masina in masini">
+                    <div class="masina-container">
+                        <img ng-src="{{masina.url}}" alt="{{masina.nume}}"
+                             ng-click="openModalImage(masina.url, masina.nume)" />
+                        <hr style="width: 70%;" />
+                        <h3>{{masina.nume}}</h3>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
