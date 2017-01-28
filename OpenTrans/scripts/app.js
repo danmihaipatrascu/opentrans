@@ -18,8 +18,13 @@ myApp.config(function ($routeProvider, $locationProvider) {
         templateUrl: 'views/parc.html'
     })
 
-     // set route for the about page
+    // set route for the about page
+   .when('/portofoliu', {
+      // controller: 'PortofoliuCtrl',
+       templateUrl: 'views/portofoliuLucrari.html'
+   })
 
+     // set route for the about page
     .when('/about', {
         controller: 'AboutCtrl',
         templateUrl: 'views/aboutus.html'

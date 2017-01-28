@@ -750,6 +750,7 @@
     <Content Include="views\home.html" />
     <Content Include="views\modals\modalImage.html" />
     <Content Include="views\parc.html" />
+    <Content Include="views\portofoliuLucrari.html" />
     <Content Include="views\test.html" />
     <Content Include="Web.config" />
   </ItemGroup>
