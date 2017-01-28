@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="node_modules/bootswatch/slate/bootstrap.min.css" />
 
@@ -25,6 +25,10 @@
 <body ng-app="myApp">
     <!--Now it Tells to AngularJS to be active in this portion of the page. In this case the entire document.(due to we apply on body tag ) -->
     <div class="container">
+        <br />
+        <br />
+        <!-- by ng-view we create a space in this dynamic content come according to route by ng-view angular know that on which area content will set-->
+        <div ng-view=""></div>
         <div ng-controller="NavCtrl">
             <nav class="navbar navbar-default navbar-fixed-top am-nav">
                 <div class="container-fluid">
@@ -44,16 +48,16 @@
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
                             <li ng-class="{ active: isActive('/home')}">
-                                <a href="#home">Home</a>
+                                <a href="#home" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">Home</a>
                             </li>
                             <li ng-class="{ active: isActive('/parc')}">
-                                <a href="#parc">Parc Auto</a>
+                                <a href="#parc" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">Parc Auto</a>
                             </li>
                             <li ng-class="{ active: isActive('/about')}">
-                                <a href="#about">About</a>
+                                <a href="#about" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">About</a>
                             </li>
                             <li ng-class="{ active: isActive('/contact')}">
-                                <a href="#contact">Contact</a>
+                                <a href="#contact" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -61,12 +65,68 @@
                 </div>
                 <!-- /.container-fluid -->
             </nav>
+            <br />
+            <nav class="footer row" ng-hide="isActive('/contact')">
+                <hr />
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-md-offset-3">
+                        <h2 class="colr">Cere oferta!</h2>
+                        <form class="form-horizontal" name="contactForm" novalidate>
+                            <fieldset>
+                                <!-- Form Name -->
+                                <!-- Text input-->
+                                <div class="form-group">
+                                    <div class="col-md-12" ng-class="{ 'has-error' : contactForm.first_name.$invalid && !contactForm.first_name.$pristine }">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                            <input name="first_name" placeholder="Nume" ng-model="vm.name" class="form-control" type="text" required>
+                                        </div>
+                                        <span ng-show="contactForm.first_name.$invalid && !contactForm.first_name.$pristine" class="help-block">Username is required.</span>
+                                    </div>
+                                </div>
+                                <!-- Text input-->
+                                <div class="form-group">
+                                    <div class="col-md-12" ng-class="{ 'has-error' : contactForm.email.$invalid && !contactForm.email.$pristine }">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                                            <input name="email" placeholder="Adresa de e-mail" ng-model="vm.email" class="form-control" type="text" ng-pattern="/^[_a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/">
+                                        </div>
+                                        <span ng-show="contactForm.email.$invalid && !contactForm.email.$pristine" class="help-block"> Enter a valid email.</span>
+                                    </div>
+                                </div>
+                                <!-- Text input-->
+                                <div class="form-group" ng-class="{ 'has-error' : contactForm.phone.$invalid && !contactForm.phone.$pristine }">
+                                    <div class="col-md-12">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+                                            <input type="text" class="form-control" ng-model="vm.phone" name="phone" ng-maxlength="10" ng-minlength="10" placeholder="07xxxxxxxx" required>
+                                        </div>
+                                        <span ng-show="contactForm.phone.$invalid && !contactForm.phone.$pristine">Numarul de telefon este obligagotriu.</span>
+                                    </div>
+                                </div>
+
+                                <div class="form-group" ng-class="{ 'has-error' : contactForm.comment.$invalid && !contactForm.comment.$pristine }">
+                                    <div class="col-md-12 inputGroupContainer">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+                                            <textarea class="form-control" ng-model="vm.message" rows="6" name="comment" placeholder="Descriere" ng-maxlength="255" ng-minlength="10" required></textarea>
+                                        </div>
+                                        <span ng-show="contactForm.comment.$invalid && !contactForm.comment.$pristine" class="help-block"> Enter a Message.</span>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-md-12">
+                                        <button type="submit" class="btn btn-warning pull-right" ng-disabled="contactForm.$invalid" ng-click="vm.send()">
+                                            Send<span class="glyphicon glyphicon-send"></span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </nav>
         </div>
-        <br />
-        <br />
-        <!-- by ng-view we create a space in this dynamic content come according to route by ng-view angular know that on which area content will set-->
-        <div ng-view=""></div>
-        <br />
     </div>
 </body>
 </html>

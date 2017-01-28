@@ -7,12 +7,15 @@
                     "STIVUITOARE",
                     "PLATFORME PENTRU LUCRU LA INALTIME"];
 
-
     function loadMasini() {
         $http.get("resources/masini.json")
         .then(function (response) {
             $scope.masini = response.data.masini;
         });
+    }
+
+    $scope.hideShow = function () {
+        $scope.menuhidden = !$scope.menuhidden;
     }
 
     $scope.openModalImage = function (imageSrc, imageDescription) {

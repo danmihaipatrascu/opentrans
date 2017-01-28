@@ -19,13 +19,19 @@ a.navbar-brand {
     padding: 0;
 }
 
+@media (max-width:1023px) {
+    a.navbar-brand, a.navbar-brand img{
+        width: 250px;
+    }
+}
+
 img.am-nav {
 }
 
 nav.am-nav {
 }
 
-.home{
+.home {
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -42,7 +48,7 @@ nav.am-nav {
 
     .home h2 {
         color: white;
-        font-size: 30px;
+        font-size: 4em;
         font-weight: bold;
         padding: 20px;
     }
@@ -63,7 +69,7 @@ nav.am-nav {
     }
 
         .home .description .description-text {
-            font-size: 0.875em;
+            font-size: 1em;
             line-height: 1.5625em;
             color: white;
             font-weight: bold;
@@ -124,11 +130,12 @@ nav.am-nav {
         min-height: 100px;
         background-color: rgba(0, 0, 0, 0.8);
         padding: 15px;
+        opacity: 0.7;
     }
 
         .home .description .description-text {
-            font-size: 0.875em;
-            line-height: 1.5625em;
+            font-size: 1em;
+            line-height: 1.2em;
             color: white;
             font-weight: bold;
         }
