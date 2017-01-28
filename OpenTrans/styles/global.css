@@ -1,10 +1,21 @@
-div.container {
-    margin-right: 50px;
-    margin-left: 50px;
-    width: initial;
+
+@media (min-width:500px) {
+    div.container {
+        margin-right: 50px;
+        margin-left: 50px;
+        width: initial;
+    }
 }
 
-a.navbar-brand{
+@media (max-width: 500px) {
+    div.container {
+        margin-right: 10px;
+        margin-left: 10px;
+        width: initial;
+    }
+}
+
+a.navbar-brand {
     padding: 0;
 }
 
@@ -12,6 +23,10 @@ img.am-nav {
 }
 
 nav.am-nav {
+}
+
+.home{
+    font-family: 'Open Sans', sans-serif;
 }
 
 @media (min-width:1023px) {
@@ -120,13 +135,15 @@ nav.am-nav {
 }
 
 .modalImage .image-wrapper {
-   text-align: center;
- }
-.modalImage .image-wrapper img {
-   max-width: 560px;
-   max-height: 560px;
+    text-align: center;
 }
+
+    .modalImage .image-wrapper img {
+        max-width: 560px;
+        max-height: 560px;
+    }
+
 .modalImage .image-description {
-  text-align: center;
-  margin-top: 10px;
+    text-align: center;
+    margin-top: 10px;
 }

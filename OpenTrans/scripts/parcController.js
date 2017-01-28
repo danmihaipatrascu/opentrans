@@ -1,6 +1,12 @@
 ﻿myApp.controller('ParcCtrl', function ($scope, $http, $uibModal) {
     $scope.masini = [];
     loadMasini();
+    $scope.tipuri = ["EXCAVATOARE",
+                    "BULDOEXCAVATOARE",
+                    "INCARCATOARE FRONTALE",
+                    "STIVUITOARE",
+                    "PLATFORME PENTRU LUCRU LA INALTIME"];
+
 
     function loadMasini() {
         $http.get("resources/masini.json")
