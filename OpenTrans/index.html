@@ -12,7 +12,7 @@
     <script src="node_modules/angular-ui-bootstrap/dist/ui-bootstrap.js"></script>
     <script src="node_modules/angular-ui-bootstrap/dist/ui-bootstrap-tpls.js"></script>
 
-    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script> <!--see async load-->
 
     <link rel="stylesheet" href="styles/global.css" />
     <script src="scripts/app.js"></script>
@@ -47,8 +47,8 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
-                            <li ng-class="{ active: isActive('/home')}">
-                                <a href="#home" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">Home</a>
+                            <li ng-class="{ active: isActive('/paginaprincipala')}">
+                                <a href="#paginaprincipala" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">Pagina principala</a>
                             </li>
                             <li ng-class="{ active: isActive('/parc')}">
                                 <a href="#parc" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">Parc Auto</a>
@@ -56,17 +56,15 @@
                             <li ng-class="{ active: isActive('/portofoliu')}">
                                 <a href="#portofoliu" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">Portofoliu Lucrari</a>
                             </li>
-                            <li ng-class="{ active: isActive('/about')}">
-                                <a href="#about" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">About</a>
+                            <li ng-class="{ active: isActive('/despre')}">
+                                <a href="#despre" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">Despre noi</a>
                             </li>
                             <li ng-class="{ active: isActive('/contact')}">
                                 <a href="#contact" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">Contact</a>
                             </li>
                         </ul>
                     </div>
-                    <!-- /.navbar-collapse -->
                 </div>
-                <!-- /.container-fluid -->
             </nav>
             <br />
             <nav class="footer row" ng-if="!isActive('/contact')">

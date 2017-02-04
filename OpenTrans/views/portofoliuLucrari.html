@@ -1,11 +1,46 @@
-﻿<!DOCTYPE html>
-<html>
+﻿
 <head>
-  
-    <title>Coming soon...</title>
-	<meta charset="utf-8" />
+    <title></title>
+    <script type="text/javascript">
+        var picPaths = ['resources/parc/actros.jpg', 'resources/parc/Motogreder - Komatsu GD 555-5.jpg', 'resources/parc/Nacela cu platforma - JLG 40RTS.jpg'];
+        var curPic = -1;
+        //preload the images for smooth animation
+        var imgO = new Array();
+        for (i = 0; i < picPaths.length; i++) {
+            imgO[i] = new Image();
+            imgO[i].src = picPaths[i];
+        }
+
+        function swapImage() {
+            curPic = (++curPic > picPaths.length - 1) ? 0 : curPic;
+            imgCont.src = imgO[curPic].src;
+            setTimeout(swapImage, 2000);
+        }
+
+        window.onload = function () {
+            imgCont = document.getElementById('imgBanner');
+            swapImage();
+        }
+    </script>
+
 </head>
 <body>
 
+    <div class="row">
+        <div class="panel panel-default col-sm-4" >
+            <div class="panel-body">
+                <div class="masina-container">
+                    <img id="imgBanner" src="" alt="" />
+                </div>
+            </div>
+
+        </div>
+
+        <div style="width:500px" class="col-sm-4">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/AUCIMg_WoaU" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+
 </body>
-</html>
+

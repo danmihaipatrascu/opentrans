@@ -7,7 +7,7 @@ var myApp = angular.module('myApp',
 myApp.config(function ($routeProvider, $locationProvider) {
     $routeProvider
     // set route for the home page
-    .when('/home',
+    .when('/paginaprincipala',
     {
         controller: 'HomeCtrl',
         templateUrl: 'views/home.html'
@@ -25,7 +25,7 @@ myApp.config(function ($routeProvider, $locationProvider) {
    })
 
      // set route for the about page
-    .when('/about', {
+    .when('/despre', {
         controller: 'AboutCtrl',
         templateUrl: 'views/aboutus.html'
     })
