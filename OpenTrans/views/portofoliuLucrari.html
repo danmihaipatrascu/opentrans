@@ -23,24 +23,52 @@
         }
     </script>
 
+    <style type="text/css">
+        .parc img {
+        }
+
+        .masini-container {
+        }
+
+        .masina-container {
+            text-align: center;
+            overflow: hidden;
+        }
+
+            .masina-container img {
+                margin: auto;
+            }
+
+        @media (max-width:1200px) {
+            .masina-container img {
+                height: 200px;
+                width: 300px;
+            }
+        }
+
+        @media (min-width:1200px) {
+            .masina-container img {
+                height: 300px;
+                width: 450px;
+            }
+
+            li.hiddenOnLarge {
+                display: none;
+            }
+        }
+    </style>
+
 </head>
 <body>
-
     <div class="row">
-        <div class="panel panel-default col-sm-4" >
+        <div class="panel panel-default col-sm-6">
             <div class="panel-body">
                 <div class="masina-container">
                     <img id="imgBanner" src="" alt="" />
                 </div>
             </div>
-
-        </div>
-
-        <div style="width:500px" class="col-sm-4">
+        </div> <div style="width:500px" class="col-sm-6">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/AUCIMg_WoaU" frameborder="0" allowfullscreen></iframe>
         </div>
     </div>
-
-
 </body>
-

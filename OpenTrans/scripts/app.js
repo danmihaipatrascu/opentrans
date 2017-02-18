@@ -13,7 +13,7 @@ myApp.config(function ($routeProvider, $locationProvider) {
         templateUrl: 'views/home.html'
     })
 
-    .when('/parc', {
+    .when('/inchiriereutilaje', {
         controller: 'ParcCtrl',
         templateUrl: 'views/parc.html'
     })
