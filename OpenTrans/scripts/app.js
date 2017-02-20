@@ -39,7 +39,7 @@ myApp.config(function ($routeProvider, $locationProvider) {
     // if not match with any route config then send to home page
 
      .otherwise({
-         redirectTo: '/home'
+         redirectTo: '/paginaprincipala'
      });
 
 });
