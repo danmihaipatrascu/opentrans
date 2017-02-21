@@ -1,0 +1,9 @@
+﻿Style:
+-> increase font size on small devices
+
+
+SEO:
+
+
+
+Functionality:

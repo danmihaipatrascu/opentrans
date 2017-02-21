@@ -746,6 +746,7 @@
     <Content Include="scripts\parcController.js" />
     <Content Include="sitemap.xml" />
     <Content Include="styles\global.css" />
+    <Content Include="TODO.txt" />
     <Content Include="views\aboutus.html" />
     <Content Include="views\contact.html" />
     <Content Include="views\home.html" />
