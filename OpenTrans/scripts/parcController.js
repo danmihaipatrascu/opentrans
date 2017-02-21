@@ -11,6 +11,13 @@
         $http.get("resources/masini.json")
         .then(function (response) {
             $scope.masini = response.data.masini;
+            angular.forEach($scope.masini, function (masina) {
+                slides.push({
+                    image: masina.url,
+                    text: masina.nume,
+                    id: currIndex++
+                });
+            });
         });
     }
 
@@ -38,4 +45,10 @@
             ]
         });
     };
+
+    $scope.myInterval = 5000;
+    $scope.noWrapSlides = false;
+    $scope.active = 0;
+    var slides = $scope.slides = [];
+    var currIndex = 0;
 });

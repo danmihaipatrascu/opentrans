@@ -67,9 +67,30 @@
             </li>
         </ul>
     </div>
+    <br />
+    <br />
     <div class="row">
         <div class="col-md-10 col-md-offset-2 col-lg-11 col-lg-offset-1">
-            <div class="row masini-container">
+            <div class="row masini-container" ng-repeat="cat in tipuri">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3>{{cat}}</h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="masina-container">
+                            <div uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
+                                <div uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id">
+                                    <img class="img-responsive" ng-src="{{slide.image}}" style="margin:auto;" alt="{{slide.text}}">
+                                    <div class="carousel-caption">
+                                        <p>{{slide.text}}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--<div class="row masini-container">
                 <div class="col-sm-12 col-md-6" ng-repeat="masina in masini">
                     <div class="panel panel-default">
                         <div class="panel-body">
@@ -83,7 +104,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>-->
         </div>
     </div>
 </div>
