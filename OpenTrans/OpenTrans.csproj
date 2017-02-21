@@ -755,6 +755,7 @@
     <Content Include="scripts\app.js" />
     <Content Include="scripts\contactController.js" />
     <Content Include="scripts\parcController.js" />
+    <Content Include="scripts\portofoliuController.js" />
     <Content Include="sitemap.xml" />
     <Content Include="styles\global.css" />
     <Content Include="TODO.txt" />
@@ -764,6 +765,7 @@
     <Content Include="views\modals\modalImage.html" />
     <Content Include="views\parc.html" />
     <Content Include="views\portofoliuLucrari.html" />
+    <Content Include="views\modals\sliderModal.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

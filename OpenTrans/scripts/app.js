@@ -20,7 +20,7 @@ myApp.config(function ($routeProvider, $locationProvider) {
 
     // set route for the about page
    .when('/portofoliu', {
-      // controller: 'PortofoliuCtrl',
+       controller: 'PortofoliuCtrl',
        templateUrl: 'views/portofoliuLucrari.html'
    })
 
