@@ -27,6 +27,10 @@
                 height: 200px;
                 width: 300px;
             }
+
+            .floatingleftmenu {
+                display: none;
+            }
         }
 
         @media (min-width:1200px) {
@@ -38,32 +42,39 @@
             li.hiddenOnLarge {
                 display: none;
             }
+
+            .masina-container .carousel-indicators {
+                bottom: 35px;
+            }
+
+            .masina-container .carousel-caption {
+                padding-bottom: 0;
+                margin-left: 125px;
+                margin-right: 125px;
+                background-color: rgba(0, 0, 0, 0.8);
+            }
         }
 
         .floatingleftmenu {
             position: fixed;
             left: 0;
             top: 10%;
-            width: 173px;
+            width: 150px;
             z-index: 5;
             opacity: 0.85;
         }
 
+            .floatingleftmenu ul li a {
+                padding: 5px;
+            }
+
         .panel.panel-default {
         }
     </style>
-    <div class="floatingleftmenu" ng-init="menuhidden=false;">
-        <ul class="nav nav-pills nav-stacked nav-float" ng-if="!menuhidden">
-            <li ng-click="hideShow()" class="hiddenOnLarge">
-                <a>Ascunde categoriile<span class="glyphicon glyphicon-menu-up  pull-right" aria-hidden="true"></span></a>
-            </li>
+    <div class="floatingleftmenu">
+        <ul class="nav nav-pills nav-stacked nav-float">
             <li ng-repeat="tip in tipuri">
-                <a href="#">{{tip}}</a>
-            </li>
-        </ul>
-        <ul class="nav nav-pills nav-stacked nav-float" ng-if="menuhidden">
-            <li ng-click="hideShow()">
-                <a>Arata categoriile<span class="glyphicon glyphicon-menu-down pull-right" aria-hidden="true"></span></a>
+                <a href="{{'#inchiriereutilaje#'+tip}}">{{tip}}</a>
             </li>
         </ul>
     </div>
@@ -71,18 +82,18 @@
     <br />
     <div class="row">
         <div class="col-md-10 col-md-offset-2 col-lg-11 col-lg-offset-1">
-            <div class="row masini-container" ng-repeat="cat in tipuri">
+            <div class="row masini-container" ng-repeat="cat in categorii" id="{{cat.nume}}">
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h3>{{cat}}</h3>
+                        <h3>{{cat.nume}}</h3>
                     </div>
                     <div class="panel-body">
                         <div class="masina-container">
                             <div uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
-                                <div uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id">
-                                    <img class="img-responsive" ng-src="{{slide.image}}" style="margin:auto;" alt="{{slide.text}}">
+                                <div uib-slide ng-repeat="slide in cat.masini track by slide.id" index="slide.id">
+                                    <img class="img-responsive" ng-src="{{slide.url}}" style="margin:auto;" alt="{{slide.nume}}">
                                     <div class="carousel-caption">
-                                        <p>{{slide.text}}</p>
+                                        <p>{{slide.nume}}</p>
                                     </div>
                                 </div>
                             </div>
@@ -90,21 +101,6 @@
                     </div>
                 </div>
             </div>
-            <!--<div class="row masini-container">
-                <div class="col-sm-12 col-md-6" ng-repeat="masina in masini">
-                    <div class="panel panel-default">
-                        <div class="panel-body">
-                            <div class="masina-container">
-                                <img ng-src="{{masina.url}}" alt="{{masina.nume}}" title="{{masina.tip}}"
-                                     ng-click="openModalImage(masina.url, masina.nume)" />
-                            </div>
-                        </div>
-                        <div class="panel-footer">
-                            <h3>{{masina.nume}}</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>-->
         </div>
     </div>
 </div>

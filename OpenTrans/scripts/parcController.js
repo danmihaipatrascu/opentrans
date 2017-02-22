@@ -1,29 +1,52 @@
 ﻿myApp.controller('ParcCtrl', function ($scope, $http, $uibModal) {
     $scope.masini = [];
     loadMasini();
-    $scope.tipuri = ["EXCAVATOARE",
-                    "BULDOEXCAVATOARE",
-                    "INCARCATOARE FRONTALE",
-                    "STIVUITOARE",
-                    "PLATFORME PENTRU LUCRU LA INALTIME"];
+    $scope.tipuri = ['Autobetoniera',
+                    'Pompa beton',
+                    'Autoutilitara',
+                    'Automacara',
+                    'Utilaj multifunctional',
+                    'Incarcator frontal',
+                    'Stivuitor',
+                    'Greder',
+                    'Buldoexcavator',
+                    'Buldozer',
+                    'Cilindru compactor',
+                    'Excavator',
+                    'Freza asfalt',
+                    'Finisor',
+                    'Foreza',
+                    'Reciclator asfalt',
+                    'Platforma ridicatoare',
+                    'Compresor',
+                    'Concasor piatra',
+                    'Statie sortare',
+                    'Repartizor agregate'];
 
     function loadMasini() {
         $http.get("resources/masini.json")
         .then(function (response) {
             $scope.masini = response.data.masini;
-            angular.forEach($scope.masini, function (masina) {
-                slides.push({
-                    image: masina.url,
-                    text: masina.nume,
-                    id: currIndex++
-                });
-            });
+            groupMasiniByTip();
         });
     }
 
-    $scope.hideShow = function () {
-        $scope.menuhidden = !$scope.menuhidden;
+    $scope.categorii = [];
+    var groupMasiniByTip = function () {
+        angular.forEach($scope.tipuri, function (tip) {
+            var cat = {
+                nume: tip,
+                masini: []
+            };
+            var currIndex = 0;
+            angular.forEach($scope.masini, function (masina) {
+                if (masina.tip == tip)
+                    cat.masini.push({ id: currIndex++, nume: masina.nume, url: masina.urls[0] });
+            });
+            $scope.categorii.push(cat);
+        });
     }
+
 
     $scope.openModalImage = function (imageSrc, imageDescription) {
         $uibModal.open({

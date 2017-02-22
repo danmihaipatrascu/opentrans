@@ -2,339 +2,346 @@
   "masini": [
     {
       "id": 1,
-      "tip": "Inchiriere utilaj: betoniera",
-      "nume": "Betoniera Trakker - Iveco",
-      "url": "resources/parc/betoniera_iveco.jpg"
+      "tip": "Autobetoniera",
+      "nume": "Autobetoniera capacitate 9 mc ",
+      "urls": [ "resources/parc/betoniera_iveco.jpg" ]
     },
     {
       "id": 2,
-      "tip": "Inchiriere utilaj: betoniera",
-      "nume": "TGA32,350 8*4 BB - MAN",
-      "url": "resources/parc/tga32.jpg"
+      "tip": "Pompa beton",
+      "nume": "Autopompa beton cu lungimea bratului de 28 m",
+      "urls": [ "resources/parc/actros.jpg" ]
     },
     {
       "id": 3,
-      "tip": "betoniera",
-      "nume": "Actros 2631 - Mercedes-Benz ",
-      "url": "resources/parc/actros.jpg"
+      "tip": "Pompa beton",
+      "nume": "Pompa stationara 50 mc/h",
+      "urls": [ "resources/parc/Pompa beton - Putzmeister BSA 1005 D.jpg" ]
     },
     {
       "id": 4,
-      "tip": "Inchiriere: cap tir",
-      "nume": "R420LA4X2MNA/R420 - Scania  ",
-      "url": "resources/parc/R420LA4X2MNA.jpg"
+      "tip": "Pompa beton",
+      "nume": "Pompa stationara 18 mc/h",
+      "urls": [ "resources/parc/Putzmeister P715TD.jpg" ]
     },
     {
       "id": 5,
-      "tip": "cap tir",
-      "nume": "R124LA4*2NA420 - Scania",
-      "url": "resources/parc/R124LA42NA420.jpg"
+      "tip": "Autoutilitara",
+      "nume": "Autocamion cu semiremorca basculabila de capacitate 24 mc",
+      "urls": [ "resources/parc/R420LA4X2MNA.jpg" ]
     },
     {
       "id": 6,
-      "tip": "Inchiriere: cap tir",
-      "nume": "R400LA4X2MNA - SCANIA                       ",
-      "url": "resources/parc/R400LA4X2MNA.jpg"
+      "tip": "Autoutilitara",
+      "nume": "Autocamion cu platforma pentru transport auto",
+      "urls": [ "resources/parc/R420LA4X2MNA.jpg" ]
     },
     {
       "id": 7,
-      "tip": "Inchiriere macara",
-      "nume": "Macara mobila Grove - GMX2035E",
-      "url": "resources/parc/MacaraMobilaGroveGMX2035E.jpg"
+      "tip": "Autoutilitara",
+      "nume": "Autocamion cu trailer de capacitate 30-40 to",
+      "urls": [ "resources/parc/R420LA4X2MNA.jpg" ]
     },
     {
       "id": 8,
-      "tip": "macara",
-      "nume": "Liebherr - Macara LTM1030",
-      "url": "resources/parc/LiebherrMacaraLTM1030.jpg"
+      "tip": "Autoutilitara",
+      "nume": "Autocamioane 8x4 pentru transport agregate, mixturi asfaltice si lucru in regim de santier",
+      "urls": [ "resources/parc/R420LA4X2MNA.jpg" ]
     },
     {
       "id": 9,
-      "tip": "Inchiriere Cisterna",
-      "nume": "Renault - Cisterna MIDLUM 220 DCI",
-      "url": "resources/parc/RenaultCisternaMIDLUM220DCI.jpg"
+      "tip": "Autoutilitara",
+      "nume": "Autoutilitara cu macara capacitate 7 to cu remorca proprie",
+      "urls": [ "resources/parc/R420LA4X2MNA.jpg" ]
     },
     {
       "id": 10,
-      "tip": "Inchiriere utilaj: sararita",
-      "nume": "Unimog + Lama+ Sararita  Mercedes-Benz - TYP 408/10 U900    ",
-      "url": "resources/parc/sararita.jpg"
+      "tip": "Autoutilitara",
+      "nume": "Autoutilitara cu cisterna pentru transport motorina, capacitate 12000 l",
+      "urls": [ "resources/parc/R420LA4X2MNA.jpg" ]
     },
     {
       "id": 11,
-      "tip": "Automobil mixt",
-      "nume": "Automobil mixt - Fiat Ducato 2.3 JTD",
-      "url": "resources/parc/Automobil mixt - Fiat Ducato 2.3 JTD.jpg"
+      "tip": "Autoutilitara",
+      "nume": "Autoutilitara cu cisterna pentru transport apa, capacitate 20000 l",
+      "urls": [ "resources/parc/R420LA4X2MNA.jpg" ]
     },
     {
       "id": 12,
-      "tip": "Autoutilitara - Mercedes-Benz",
-      "nume": "Autoutilitara - Mercedes-Benz",
-      "url": "resources/parc/Autoutilitara - Mercedes-Benz.jpg"
+      "tip": "Autoutilitara",
+      "nume": "Autoraspanditor emulsie pentru lucrari de asfaltare, amorsare",
+      "urls": [ "resources/parc/R420LA4X2MNA.jpg" ]
     },
     {
       "id": 13,
-      "tip": "Autoutilitara - Citroen Jumper",
-      "nume": "Autoutilitara - Citroen Jumper",
-      "url": "resources/parc/Autoutilitara - Citroen Jumper.jpg"
+      "tip": "Automacara",
+      "nume": "Automacara Grove capacitate 35 to",
+      "urls": [ "resources/parc/MacaraMobilaGroveGMX2035E.jpg" ]
     },
     {
       "id": 14,
-      "tip": "Transporter - Volkswagen 7HC",
-      "nume": "Transporter - Volkswagen 7HC",
-      "url": "resources/parc/Transporter - Volkswagen 7HC.jpg"
+      "tip": "Automacara",
+      "nume": "Automacara Liebherr capacitate 30 to",
+      "urls": [ "resources/parc/LiebherrMacaraLTM1030.jpg" ]
     },
     {
       "id": 15,
-      "tip": "Inchiriere utilaj: Incarcator frontal - FIATALLIS FR 15",
-      "nume": "Incarcator frontal - FIATALLIS FR 15",
-      "url": "resources/parc/Incarcator frontal - FIATALLIS FR 15.jpg"
+      "tip": "Automacara",
+      "nume": "Automacara Liebherr capacitate 60 to",
+      "urls": [ "resources/parc/LTM1060-2.jpg" ]
     },
     {
       "id": 16,
-      "tip": "Inchiriere: Incarcator frontal - Hanomag 70 E",
-      "nume": "Incarcator frontal - Hanomag 70 E                   ",
-      "url": "resources/parc/Incarcator frontal - Hanomag 70 E.jpg"
+      "tip": "Utilaj multifunctional",
+      "nume": "Utilaj multifunctional Unimog cu lama, sararita si perie",
+      "urls": [ "resources/parc/sararita.jpg" ]
     },
     {
       "id": 17,
       "tip": "Incarcator frontal",
-      "nume": "Incarcator frontal  - Liebherr L564",
-      "url": "resources/parc/Incarcator frontal  - Liebherr L564.jpg"
+      "nume": "Incarcator frontal Fiatallis, capacitate cupa 3 mc",
+      "urls": [ "resources/parc/Incarcator frontal - FIATALLIS FR 15.jpg" ]
     },
     {
       "id": 18,
-      "tip": "Inchiriere: Stivuitor STILL",
-      "nume": "Stivuitor STILL DFG 4106                         ",
-      "url": "resources/parc/Stivuitor STILL DFG 4106.jpg"
+      "tip": "Incarcator frontal",
+      "nume": "Incarcator frontal Hanomag, capacitate cupa 3,3 mc",
+      "urls": [ "resources/parc/Incarcator frontal - Hanomag 70 E.jpg" ]
     },
     {
       "id": 19,
-      "tip": "Inchiriere: Motogreder - Komatsu GD 555-5",
-      "nume": "Motogreder - Komatsu GD 555-5",
-      "url": "resources/parc/Motogreder - Komatsu GD 555-5.jpg"
+      "tip": "Incarcator frontal",
+      "nume": "Incarcator frontal Liebherr, capacitate cupa 3,5 mc",
+      "urls": [ "resources/parc/Incarcator frontal  - Liebherr L564.jpg" ]
     },
     {
       "id": 20,
-      "tip": "Inchiriere: Greder - Caterpillar",
-      "nume": "Greder - Caterpillar 140  H         ",
-      "url": "resources/parc/Greder - Caterpillar 140  H.jpg"
+      "tip": "Incarcator frontal",
+      "nume": "Incarcator frontal Hitachi cu cupa multifunctionala, capacitate cupa 4 mc ",
+      "urls": [ "resources/parc/Hitachi ZW180.jpg" ]
     },
     {
       "id": 21,
-      "tip": "Buldoexcavator",
-      "nume": "Buldoexcavator - Caterpillar 428F",
-      "url": "resources/parc/Buldoexcavator - Caterpillar 428F.jpg"
+      "tip": "Stivuitor",
+      "nume": "Stivuitor Still, capacitate 7 to",
+      "urls": [ "resources/parc/Stivuitor STILL DFG 4106.jpg" ]
     },
     {
       "id": 22,
-      "tip": "Inchiriere: Buldoexcavator",
-      "nume": "Buldoexcavator - Caterpillar 427F2     ",
-      "url": "resources/parc/Buldoexcavator - Caterpillar 427F2.jpg"
+      "tip": "Greder",
+      "nume": "Motogreder Komatsu, latime de lucru 4,32 m",
+      "urls": [ "resources/parc/Motogreder - Komatsu GD 555-5.jpg" ]
     },
     {
       "id": 23,
-      "tip": "Inchiriere: Buldozer",
-      "nume": "Buldozer - Caterpillar D6M",
-      "url": "resources/parc/Buldozer - Caterpillar D6M.jpg"
+      "tip": "Greder",
+      "nume": "Greder Caterpillar, latime de lucru 4,32 m",
+      "urls": [ "resources/parc/Greder - Caterpillar 140  H.jpg" ]
     },
     {
       "id": 24,
-      "tip": "Inchiriere utilaj: Buldozer",
-      "nume": "Buldozer - Caterpillar D6M LGP  ",
-      "url": "resources/parc/Buldozer - Caterpillar D6M LGP.jpg"
+      "tip": "Buldoexcavator",
+      "nume": "Buldoexcavator Caterpillar cu cupa multifunctionala si picon, capacitate cupa 1,03 mc",
+      "urls": [ "resources/parc/Buldoexcavator - Caterpillar 428F.jpg" ]
     },
     {
       "id": 25,
-      "tip": "Buldozer",
-      "nume": "Buldozer - Caterpillar D6M XL",
-      "url": "resources/parc/Buldozer - Caterpillar D6M XL.jpg"
+      "tip": "Buldoexcavator",
+      "nume": "Buldoexcavator Caterpillar cu cupa multifunctionala si picon, capacitate cupa 1,03 mc",
+      "urls": [ "resources/parc/Buldoexcavator - Caterpillar 427F2.jpg" ]
     },
     {
       "id": 26,
-      "tip": "Inchiriere: Cilindru compactor ",
-      "nume": "Cilindru compactor - Caterpillar     ",
-      "url": "resources/parc/Cilindru compactor - Caterpillar.jpg"
+      "tip": "Buldozer",
+      "nume": "Buldozer Caterpillar, latime de lucru 4 m",
+      "urls": [
+        "resources/parc/Buldozer - Caterpillar D6M.jpg",
+        "resources/parc/Buldozer - Caterpillar D6M LGP.jpg",
+        "resources/parc/Buldozer - Caterpillar D6M XL.jpg"
+      ]
     },
     {
       "id": 27,
-      "tip": "Cilindru compactor mixt",
-      "nume": "Cilindru compactor mixt - Lebrero",
-      "url": "resources/parc/Cilindru compactor mixt - Lebrero.jpg"
+      "tip": "Cilindru compactor",
+      "nume": "Cilindru compactor Caterpillar guma - guma - 21 to",
+      "urls": [ "resources/parc/Cilindru compactor - Caterpillar.jpg" ]
     },
     {
       "id": 28,
-      "tip": "Inchiriere: Cilindru compactor-Terex TV1200",
-      "nume": "Cilindru compactor - Terex TV1200",
-      "url": "resources/parc/Cilindru compactor - Terex TV1200.jpg"
+      "tip": "Cilindru compactor",
+      "nume": "Cilindru compactor mixt Lebrero - 18 to",
+      "urls": [ "resources/parc/Cilindru compactor mixt - Lebrero.jpg" ]
     },
     {
       "id": 29,
-      "tip": "Inchiriere: Cilindru compactor mixt",
-      "nume": "Cilindru compactor mixt - AMMANN",
-      "url": "resources/parc/Cilindru compactor mixt - AMMANN.jpg"
+      "tip": "Cilindru compactor",
+      "nume": "Cilindru compactor mixt AMMANN - 15 to",
+      "urls": [ "resources/parc/Cilindru compactor mixt - AMMANN.jpg" ]
     },
     {
       "id": 30,
-      "tip": "Cilindru compactor mixt",
-      "nume": "Cilindru compactor mixt - Bomag BW 138 AC      ",
-      "url": "resources/parc/Cilindru compactor mixt - Bomag BW 138 AC.jpg"
+      "tip": "Cilindru compactor",
+      "nume": "Cilindru compactor mixt Bomag - 4,3 to",
+      "urls": [ "resources/parc/Cilindru compactor mixt - Bomag BW 138 AC.jpg" ]
     },
     {
       "id": 31,
-      "tip": "Cilindru compactor Hamm",
-      "nume": "Cilindru compactor Hamm - HD 90",
-      "url": "resources/parc/Cilindru compactor Hamm - HD 90.jpg"
+      "tip": "Cilindru compactor",
+      "nume": "Cilindru compactor fier Hamm - 9,2 to",
+      "urls": [ "resources/parc/Cilindru compactor Hamm - HD 90.jpg" ]
     },
     {
       "id": 32,
-      "tip": "Inchiriere: Cilindru compactor Hamm",
-      "nume": "Cilindru compactor Hamm - HD 110  ",
-      "url": "resources/parc/Cilindru compactor Hamm - HD 110.jpg"
+      "tip": "Cilindru compactor",
+      "nume": "Cilindru compactor fier Hamm - 10,53 to",
+      "urls": [ "resources/parc/Cilindru compactor Hamm - HD 110.jpg" ]
     },
     {
       "id": 33,
-      "tip": "Cilindru compactor - Bomag BW 80 AD",
-      "nume": "Cilindru compactor - Bomag BW 80 AD",
-      "url": "resources/parc/Cilindru compactor - Bomag BW 80 AD.jpg"
+      "tip": "Cilindru compactor",
+      "nume": "Cilindru compactor fier Bomag - 1,5 to",
+      "urls": [ "resources/parc/Cilindru compactor - Bomag BW 80 AD.jpg" ]
     },
     {
       "id": 34,
-      "tip": "Cilindru compactor manual ",
-      "nume": "Cilindru compactor manual - Bomag BW 65 HS        ",
-      "url": "resources/parc/Cilindru compactor manual - Bomag BW 65 HS.jpg"
+      "tip": "Cilindru compactor",
+      "nume": "Cilindru compactor fier Bomag - 2,3 to",
+      "urls": [ "resources/parc/Bomag BW120AD-4.jpg" ]
     },
     {
       "id": 35,
-      "tip": "Inchiriere: Excavator pe pneuri  - Liebherr 904 Litronic",
-      "nume": "Excavator pe pneuri  - Liebherr 904 Litronic",
-      "url": "resources/parc/Excavator pe pneuri  - Liebherr 904 Litronic.jpg"
+      "tip": "Cilindru compactor",
+      "nume": "Cilindru compactor fier Hamm - 3,2 to",
+      "urls": [ "resources/parc/Hamm HD12VV.jpg" ]
     },
     {
       "id": 36,
-      "tip": "Inchiriereutilaj: Excavator pe pneuri - Liebherr A 900 B",
-      "nume": "Excavator pe pneuri - Liebherr A 900 B     ",
-      "url": "resources/parc/Excavator pe pneuri - Liebherr A 900 B.jpg"
+      "tip": "Cilindru compactor",
+      "nume": "Cilindru compactor fier Hamm - 3,1 to",
+      "urls": [ "resources/parc/Hamm HD12.jpg" ]
     },
     {
       "id": 37,
-      "tip": "Excavator pe senile - Komatsu PC 210 LC",
-      "nume": "Excavator pe senile - Komatsu PC 210 LC",
-      "url": "resources/parc/Excavator pe senile - Komatsu PC 210 LC.jpg"
+      "tip": "Cilindru compactor",
+      "nume": "Compactor manual fier Bomag - 715 kg",
+      "urls": [ "resources/parc/Cilindru compactor manual - Bomag BW 65 HS.jpg" ]
     },
     {
       "id": 38,
-      "tip": "Inchiriere: Excavator pe senile - Komatsu PC 210-6",
-      "nume": "Excavator pe senile - Komatsu PC 210-6 ",
-      "url": "resources/parc/Excavator pe senile - Komatsu PC 210-6.jpg"
+      "tip": "Excavator",
+      "nume": "Excavator pe roti Liebherr cu picon si cupa de la 0,7 mc pana la 1,3 mc",
+      "urls": [ "resources/parc/Excavator pe pneuri  - Liebherr 904 Litronic.jpg" ]
     },
     {
       "id": 39,
-      "tip": "Excavator pe senile - Caterpillar 325 C L",
-      "nume": "Excavator pe senile - Caterpillar 325 C L",
-      "url": "resources/parc/Excavator pe senile - Caterpillar 325 C L.jpg"
+      "tip": "Excavator",
+      "nume": "Excavator pe roti Liebherr cu picon si cupa de la 0,7 mc pana la 1,3 mc",
+      "urls": [ "resources/parc/Excavator pe pneuri - Liebherr A 900 B.jpg" ]
     },
     {
       "id": 40,
-      "tip": "Inchiriere: Excavator pe senile - Caterpillar 324 D L",
-      "nume": "Excavator pe senile - Caterpillar 324 D L  ",
-      "url": "resources/parc/Excavator pe senile - Caterpillar 324 D L.jpg"
+      "tip": "Excavator",
+      "nume": "Excavator pe roti Liebherr cu picon si cupa de la 0,7 mc pana la 1,3 mc",
+      "urls": [ "resources/parc/Liebherr A900C.jpg" ]
     },
     {
       "id": 41,
-      "tip": "Freza asfalt",
-      "nume": "Freza asfalt - Wirtgen W100",
-      "url": "resources/parc/Freza asfalt - Wirtgen W100.jpg"
+      "tip": "Excavator",
+      "nume": "Excavator pe senile Komatsu cu picon si cupa de la 0,7 mc pana la 1,3 mc",
+      "urls": [
+        "resources/parc/Excavator pe senile - Komatsu PC 210-6.jpg",
+        "resources/parc/Excavator pe senile - Komatsu PC 210 LC.jpg"
+      ]
     },
     {
       "id": 42,
-      "tip": "Inchiriere: Freza asfalt",
-      "nume": "Freza asfalt - Bitelli SF 101    ",
-      "url": "resources/parc/Freza asfalt - Bitelli SF 101.jpg"
+      "tip": "Excavator",
+      "nume": "Excavator pe senile Caterpillar cu picon si cupa de la 1,4 mc pana la 2 mc",
+      "urls": [ "resources/parc/Excavator pe senile - Caterpillar 325 C L.jpg" ]
     },
     {
       "id": 43,
-      "tip": "Inchiriere: Finisor",
-      "nume": "Finisor - Vogele Super 1600-2",
-      "url": "resources/parc/Finisor - Vogele Super 1600-2.jpg"
+      "tip": "Excavator",
+      "nume": "Excavator pe senile Caterpillar cu picon si cupa de la 1,4 mc pana la 2 mc",
+      "urls": [ "resources/parc/Excavator pe senile - Caterpillar 324 D L.jpg" ]
     },
     {
       "id": 44,
-      "tip": "Inchiriere  utilaj: Finisor",
-      "nume": "Finisor - Vogele Super 800   ",
-      "url": "resources/parc/Finisor - Vogele Super 800.jpg"
+      "tip": "Freza asfalt",
+      "nume": "Freza asfalt, latime de lucru 1 m",
+      "urls": [ "resources/parc/Freza-de-Asfalt-la-rece-Wirtgen-W100.jpg" ]
     },
     {
       "id": 45,
-      "tip": "Inchiriere: Reciclator asfalt",
-      "nume": "Reciclator asfalt - BAGELA BA7000F",
-      "url": "resources/parc/Reciclator asfalt - BAGELA BA7000F.jpg"
+      "tip": "Finisor",
+      "nume": "Finisor - latime de lucru 5 m",
+      "urls": [ "resources/parc/Finisor - Vogele Super 1600-2.jpg" ]
     },
     {
       "id": 46,
-      "tip": "Inchiriere: Foreza",
-      "nume": "Foreza - Wirth Ecodril 18            ",
-      "url": "resources/parc/Foreza - Wirth Ecodril 18.jpg"
+      "tip": "Finisor",
+      "nume": "Finisor - latime de lucru 1-1,5 m",
+      "urls": [ "resources/parc/Finisor - Vogele Super 800.jpg" ]
     },
     {
       "id": 47,
-      "tip": "Inchiriere: Utilaj de marcat asfalt",
-      "nume": "Utilaj de marcat asfalt - Hofmann H8",
-      "url": "resources/parc/Utilaj de marcat asfalt - Hofmann H8.jpg"
+      "tip": "Foreza",
+      "nume": "Instalatie de forat pana la 25 m cu tubulatura",
+      "urls": [ "resources/parc/Freza asfalt - Wirtgen W100.jpg" ]
     },
     {
       "id": 48,
-      "tip": "Motocompresor mobil",
-      "nume": "Motocompresor mobil - KASER M43         ",
-      "url": "resources/parc/Motocompresor mobil - KASER M43.jpg"
+      "tip": "Reciclator asfalt",
+      "nume": "Reciclator asfalt 700 kg/h",
+      "urls": [ "resources/parc/Reciclator asfalt - BAGELA BA7000F.jpg" ]
     },
     {
       "id": 49,
-      "tip": "Inchiriere: Nacela cu platforma",
-      "nume": "Nacela cu platforma - JLG 40RTS",
-      "url": "resources/parc/Nacela cu platforma - JLG 40RTS.jpg"
+      "tip": "Platforma ridicatoare",
+      "nume": "Platforma articulata - inaltime de lucru 14 m",
+      "urls": [ "resources/parc/Platforma articulate - Genie Z-45_25 RT.jpg" ]
     },
     {
       "id": 50,
-      "tip": "Inchiriere: Platforma articulate",
-      "nume": "Platforma articulate - Genie Z-45/25 RT   ",
-      "url": "resources/parc/Platforma articulate - Genie Z-45_25 RT.jpg"
+      "tip": "Platforma ridicatoare",
+      "nume": "Platforma telescopica - inaltime de lucru 18 m",
+      "urls": [ "resources/parc/Platforma telescopica - Genie S-60.jpg" ]
     },
     {
       "id": 51,
-      "tip": "Inchiriere: Platforma telescopica",
-      "nume": "Platforma telescopica - Genie S-60",
-      "url": "resources/parc/Platforma telescopica - Genie S-60.jpg"
+      "tip": "Platforma ridicatoare",
+      "nume": "Platforma tijera electrica - inaltime de lucru 10 m",
+      "urls": [ "resources/parc/Platforma tijera electrica - Genie GS2646.jpg" ]
     },
     {
       "id": 52,
-      "tip": "Inchiriere: Platforma tijera electrica",
-      "nume": "Platforma tijera electrica - Genie GS2646     ",
-      "url": "resources/parc/Platforma tijera electrica - Genie GS2646.jpg"
+      "tip": "Compresor",
+      "nume": "Motocompresor mobil",
+      "urls": [ "resources/parc/Motocompresor mobil - KASER M43.jpg" ]
     },
     {
       "id": 53,
-      "tip": "Inchiriere: Pompa beton - Putzmeister",
-      "nume": "Pompa beton - Putzmeister BSA 1005 D ",
-      "url": "resources/parc/Pompa beton - Putzmeister BSA 1005 D.jpg"
+      "tip": "Compresor",
+      "nume": "Compresor aer comprimat",
+      "urls": [ "resources/parc/Zeppelin Z37.jpg" ]
     },
     {
       "id": 54,
-      "tip": "Inchiriere: Concasor piatra",
-      "nume": "Concasor piatra - Pegson 1100x650  ",
-      "url": "resources/parc/Concasor piatra - Pegson 1100x650.jpg"
+      "tip": "Concasor piatra",
+      "nume": "Concasor piatra capacitate 400 to/h",
+      "urls": [ "resources/parc/Concasor piatra - Pegson 1100x650.jpg" ]
     },
     {
       "id": 55,
-      "tip": "Inchiriere: Statie sortare mobila",
-      "nume": "Statie sortare mobila - Finay 393 C",
-      "url": "resources/parc/Statie sortare mobila - Finay 393 C.jpg"
+      "tip": "Statie sortare",
+      "nume": "Statie sortare mobila, capacitate de sortare 3 sorturi+refuz, incarcare 8 mc",
+      "urls": [ "resources/parc/Statie sortare mobila - Finay 393 C.jpg" ]
     },
     {
       "id": 56,
-      "tip": "Inchiriere: Repartizor agregat",
-      "nume": "Repartizor agregate - DG 1500      ",
-      "url": "resources/parc/Repartizor agregate - DG 1500.jpg"
+      "tip": "Repartizor agregate",
+      "nume": "Repartizor agregate, latime de lucru 2,9 - 3,2 m",
+      "urls": [ "resources/parc/Repartizor agregate - DG 1500.jpg" ]
     }
   ]
 }
