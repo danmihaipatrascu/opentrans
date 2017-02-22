@@ -8,7 +8,7 @@
             $scope.masini = response.data.masini;
             angular.forEach($scope.masini, function (masina) {
                 slides.push({
-                    image: masina.url,
+                    image: masina.urls[0],
                     text: masina.nume,
                     id: currIndex++
                 });
