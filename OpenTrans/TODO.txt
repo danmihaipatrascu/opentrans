@@ -1,4 +1,9 @@
-﻿Style:
+﻿TODO: 
+Google maps nu apare unde trebuie;
+Font-ul de pe Contact=>Adresa+Webstire+FB mai mici(ca si restul de la departamente)
+Facebook link: ceva mai sugestiv;
+
+Style:
 -> increase font size on small devices
 -> links for home
 -> links on contact with all categorii utilaje: #/inchiriereutilaje#betoniera
