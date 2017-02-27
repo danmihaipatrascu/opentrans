@@ -46,7 +46,8 @@
       "id": 8,
       "tip": "Autoutilitara",
       "nume": "Autocamioane 8x4 pentru transport agregate, mixturi asfaltice si lucru in regim de santier",
-      "urls": [ "resources/parc/R420LA4X2MNA.jpg" ]
+      "urls": [ "resources/parc/R420LA4X2MNA.jpg" ],
+      "font": "sm"
     },
     {
       "id": 9,
@@ -142,13 +143,15 @@
       "id": 24,
       "tip": "Buldoexcavator",
       "nume": "Buldoexcavator Caterpillar cu cupa multifunctionala si picon, capacitate cupa 1,03 mc",
-      "urls": [ "resources/parc/Buldoexcavator - Caterpillar 428F.jpg" ]
+      "urls": [ "resources/parc/Buldoexcavator - Caterpillar 428F.jpg" ],
+      "font": "sm"
     },
     {
       "id": 25,
       "tip": "Buldoexcavator",
       "nume": "Buldoexcavator Caterpillar cu cupa multifunctionala si picon, capacitate cupa 1,03 mc",
-      "urls": [ "resources/parc/Buldoexcavator - Caterpillar 427F2.jpg" ]
+      "urls": [ "resources/parc/Buldoexcavator - Caterpillar 427F2.jpg" ],
+      "font": "sm"
     },
     {
       "id": 26,
@@ -287,7 +290,7 @@
       "id": 47,
       "tip": "Foreza",
       "nume": "Instalatie de forat pana la 25 m cu tubulatura",
-      "urls": [ "resources/parc/Freza asfalt - Wirtgen W100.jpg" ]
+      "urls": [ "resources/parc/Foreza - Wirth Ecodril 18_2.jpg" ]
     },
     {
       "id": 48,

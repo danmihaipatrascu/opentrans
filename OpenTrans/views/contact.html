@@ -1,22 +1,60 @@
-<div class="container" ng-controller="ContactCtrl as vm">
+<div class="container contact" ng-controller="ContactCtrl as vm">
     <div class="row" style="margin-bottom:15px;">
-        <div class="col-md-6" id="box" style="text-align:left">
+        <div class="col-md-4" id="box" style="text-align:left">
             <h2 class="callToAction">Adresa contact</h2>
             <p style="font-size:1.5em">
                 <strong>S.C. OPENTRANS S.R.L</strong><br>
-                <i class="glyphicon glyphicon-map-marker"></i> Punct lucru: Cluj Napoca, Str. Cantonului 9B<br><br>
+                <i class="glyphicon glyphicon-map-marker"></i> Cluj Napoca, Str. Cantonului 9B<br><br>
                 <i class="glyphicon glyphicon-home"></i> Coroieni nr. 141, jud. Maramures <br><br>
-                <i class="glyphicon glyphicon-phone-alt"></i> tel/fax : 0262-389.419<br>
-                <i class="glyphicon glyphicon-phone"></i> mobil : 0742-002.975 (Stanciu Ioan)
-                <br><br>
-                <i class="glyphicon glyphicon-envelope"></i> email : office@opentrans.ro
-                <br>
                 <i class="glyphicon glyphicon-cloud"></i> web: www.opentrans.ro
             </p>
         </div>
 
+        <div class="col-md-4 departamente" id="box" style="text-align:left">
+            <ul>
+                <li>
+                    Secretariat
+                    <br>
+                    <i class="glyphicon glyphicon-phone"></i> 0756 029 861
+                    <br>
+                    <i class="glyphicon glyphicon-phone"></i> 0756 720 355
+                    <br>
+                    <i class="glyphicon glyphicon-envelope"></i> office@opentrans.ro
+                </li>
 
-        <div class="col-md-6" id="box">
+                <li>
+                    Departament Ofertare
+                    <br>
+                    <i class="glyphicon glyphicon-phone"></i> 0758 041 735
+                    <br>
+                    <i class="glyphicon glyphicon-envelope"></i> ofertare@opentrans.ro
+                </li>
+
+                <li>
+                    Departament Vanzari Beton
+                    <br>
+                    <i class="glyphicon glyphicon-phone"></i> 0730 003 267
+                    <br>
+                    <i class="glyphicon glyphicon-envelope"></i> ioan.lohan@opentrans.ro
+                </li>
+                <li>
+                    Departament Inchirieri
+                    <br>
+                    <i class="glyphicon glyphicon-phone"></i> 0745 374 105
+                    <br>
+                    <i class="glyphicon glyphicon-envelope"></i> inchirieri@opentrans.ro
+                </li>
+                <li>
+                    Departament Contabilitate
+                    <br>
+                    <i class="glyphicon glyphicon-phone"></i> 0756 714 789
+                    <br>
+                    <i class="glyphicon glyphicon-envelope"></i> contabilitate@opentrans.ro
+                </li>
+            </ul>
+        </div>
+
+        <div class="col-md-4" id="box">
             <h2>Contactati-ne pentru orice informatie.</h2>
 
 
@@ -93,7 +131,168 @@
                 var uluru = { lat: 46.7787, lng: 23.6934 };
                 var map = new google.maps.Map(document.getElementById('map'), {
                     zoom: 16,
-                    center: uluru
+                    center: uluru,
+                    styles: [
+                              {
+                                  "elementType": "geometry",
+                                  "stylers": [
+                                    {
+                                        "color": "#242f3e"
+                                    }
+                                  ]
+                              },
+                              {
+                                  "elementType": "labels.text.fill",
+                                  "stylers": [
+                                    {
+                                        "color": "#746855"
+                                    }
+                                  ]
+                              },
+                              {
+                                  "elementType": "labels.text.stroke",
+                                  "stylers": [
+                                    {
+                                        "color": "#242f3e"
+                                    }
+                                  ]
+                              },
+                              {
+                                  "featureType": "administrative.locality",
+                                  "elementType": "labels.text.fill",
+                                  "stylers": [
+                                    {
+                                        "color": "#d59563"
+                                    }
+                                  ]
+                              },
+                              {
+                                  "featureType": "poi",
+                                  "elementType": "labels.text.fill",
+                                  "stylers": [
+                                    {
+                                        "color": "#d59563"
+                                    }
+                                  ]
+                              },
+                              {
+                                  "featureType": "poi.park",
+                                  "elementType": "geometry",
+                                  "stylers": [
+                                    {
+                                        "color": "#263c3f"
+                                    }
+                                  ]
+                              },
+                              {
+                                  "featureType": "poi.park",
+                                  "elementType": "labels.text.fill",
+                                  "stylers": [
+                                    {
+                                        "color": "#6b9a76"
+                                    }
+                                  ]
+                              },
+                              {
+                                  "featureType": "road",
+                                  "elementType": "geometry",
+                                  "stylers": [
+                                    {
+                                        "color": "#38414e"
+                                    }
+                                  ]
+                              },
+                              {
+                                  "featureType": "road",
+                                  "elementType": "geometry.stroke",
+                                  "stylers": [
+                                    {
+                                        "color": "#212a37"
+                                    }
+                                  ]
+                              },
+                              {
+                                  "featureType": "road",
+                                  "elementType": "labels.text.fill",
+                                  "stylers": [
+                                    {
+                                        "color": "#9ca5b3"
+                                    }
+                                  ]
+                              },
+                              {
+                                  "featureType": "road.highway",
+                                  "elementType": "geometry",
+                                  "stylers": [
+                                    {
+                                        "color": "#746855"
+                                    }
+                                  ]
+                              },
+                              {
+                                  "featureType": "road.highway",
+                                  "elementType": "geometry.stroke",
+                                  "stylers": [
+                                    {
+                                        "color": "#1f2835"
+                                    }
+                                  ]
+                              },
+                              {
+                                  "featureType": "road.highway",
+                                  "elementType": "labels.text.fill",
+                                  "stylers": [
+                                    {
+                                        "color": "#f3d19c"
+                                    }
+                                  ]
+                              },
+                              {
+                                  "featureType": "transit",
+                                  "elementType": "geometry",
+                                  "stylers": [
+                                    {
+                                        "color": "#2f3948"
+                                    }
+                                  ]
+                              },
+                              {
+                                  "featureType": "transit.station",
+                                  "elementType": "labels.text.fill",
+                                  "stylers": [
+                                    {
+                                        "color": "#d59563"
+                                    }
+                                  ]
+                              },
+                              {
+                                  "featureType": "water",
+                                  "elementType": "geometry",
+                                  "stylers": [
+                                    {
+                                        "color": "#17263c"
+                                    }
+                                  ]
+                              },
+                              {
+                                  "featureType": "water",
+                                  "elementType": "labels.text.fill",
+                                  "stylers": [
+                                    {
+                                        "color": "#515c6d"
+                                    }
+                                  ]
+                              },
+                              {
+                                  "featureType": "water",
+                                  "elementType": "labels.text.stroke",
+                                  "stylers": [
+                                    {
+                                        "color": "#17263c"
+                                    }
+                                  ]
+                              }
+                    ]
                 });
                 var marker = new google.maps.Marker({
                     position: uluru,

@@ -1,4 +1,4 @@
-﻿myApp.controller('ParcCtrl', function ($scope, $http, $uibModal) {
+﻿myApp.controller('ParcCtrl', function ($scope, $http, $uibModal, $location, $anchorScroll) {
     $scope.masini = [];
     loadMasini();
     $scope.tipuri = ['Autobetoniera',
@@ -40,8 +40,10 @@
             };
             var currIndex = 0;
             angular.forEach($scope.masini, function (masina) {
-                if (masina.tip == tip)
-                    cat.masini.push({ id: currIndex++, nume: masina.nume, url: masina.urls[0] });
+                if (masina.tip == tip) {
+                    cat.masini.push({ id: currIndex++, nume: masina.nume, url: masina.urls[0], font: masina.font });
+                    cat.numeUtilaj = masina.nume;
+                }
             });
             $scope.categorii.push(cat);
         });
@@ -69,9 +71,64 @@
         });
     };
 
+    // solution #3 use with the below onCarouselChange directive
+    $scope.onSlideChanged = function (nextSlide, direction, catIndex) {
+        var nume = $(nextSlide.element).find('.carousel-caption p').text();
+        if (nume.indexOf('{{slide.nume}}') == -1)
+            $scope.categorii[catIndex].numeUtilaj = nume;
+    };
+
+    $scope.gotoAnchor = function (x) {
+        var newHash = x;
+        if ($location.hash() !== newHash) {
+            // set the $location.hash to `newHash` and
+            // $anchorScroll will automatically scroll to it
+            $location.hash(x);
+        } else {
+            // call $anchorScroll() explicitly,
+            // since $location.hash hasn't changed
+            $anchorScroll();
+        }
+    };
+
     $scope.myInterval = 5000;
     $scope.noWrapSlides = false;
     $scope.active = 0;
     var slides = $scope.slides = [];
     var currIndex = 0;
+})
+.directive('onCarouselChange', function ($parse) {
+    return {
+        require: 'uibCarousel',
+        link: function (scope, element, attrs, uibCarouselCtrl) {
+            var fn = $parse(attrs.onCarouselChange);
+            var origSelect = uibCarouselCtrl.select;
+            uibCarouselCtrl.select = function (nextSlide, direction) {
+                if (nextSlide !== this.currentSlide) {
+                    fn(scope, {
+                        nextSlide: nextSlide,
+                        direction: direction,
+                    });
+                }
+                return origSelect.apply(this, arguments);
+            };
+        }
+    };
+})
+.directive('scrollOnClick', function () {
+    return {
+        restrict: 'A',
+        link: function (scope, $elm, attrs) {
+            var idToScroll = attrs.href;
+            $elm.on('click', function () {
+                var $target;
+                if (idToScroll) {
+                    $target = $(idToScroll);
+                } else {
+                    $target = $elm;
+                }
+                $("body").animate({ scrollTop: $target.offset().top - 100 }, "slow");
+            });
+        }
+    }
 });
