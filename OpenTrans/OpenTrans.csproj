@@ -698,6 +698,7 @@
     <Content Include="resources\parc\Autoutilitara - Citroen Jumper.jpg" />
     <Content Include="resources\parc\Autoutilitara - Mercedes-Benz.jpg" />
     <Content Include="resources\parc\betoniera_iveco.jpg" />
+    <Content Include="resources\parc\Bomag BW120AD-4.jpg" />
     <Content Include="resources\parc\Buldoexcavator - Caterpillar 427F2.jpg" />
     <Content Include="resources\parc\Buldoexcavator - Caterpillar 428F.jpg" />
     <Content Include="resources\parc\Buldozer - Caterpillar D6M LGP.jpg" />
@@ -722,13 +723,20 @@
     <Content Include="resources\parc\Finisor - Vogele Super 1600-2.jpg" />
     <Content Include="resources\parc\Finisor - Vogele Super 800.jpg" />
     <Content Include="resources\parc\Foreza - Wirth Ecodril 18.jpg" />
+    <Content Include="resources\parc\Foreza - Wirth Ecodril 18_2.JPG" />
     <Content Include="resources\parc\Freza asfalt - Bitelli SF 101.jpg" />
     <Content Include="resources\parc\Freza asfalt - Wirtgen W100.jpg" />
+    <Content Include="resources\parc\Freza-de-Asfalt-la-rece-Wirtgen-W100.jpg" />
     <Content Include="resources\parc\Greder - Caterpillar 140  H.jpg" />
+    <Content Include="resources\parc\Hamm HD12.jpg" />
+    <Content Include="resources\parc\Hamm HD12VV.jpg" />
+    <Content Include="resources\parc\Hitachi ZW180.jpg" />
     <Content Include="resources\parc\Incarcator frontal  - Liebherr L564.jpg" />
     <Content Include="resources\parc\Incarcator frontal - Hanomag 70 E.jpg" />
     <Content Include="resources\parc\Incarcator frontal - FIATALLIS FR 15.jpg" />
+    <Content Include="resources\parc\Liebherr A900C.jpg" />
     <Content Include="resources\parc\LiebherrMacaraLTM1030.jpg" />
+    <Content Include="resources\parc\LTM1060-2.jpg" />
     <Content Include="resources\parc\MacaraMobilaGroveGMX2035E.jpg" />
     <Content Include="resources\parc\Motocompresor mobil - KASER M43.jpg" />
     <Content Include="resources\parc\Motogreder - Komatsu GD 555-5.jpg" />
@@ -738,6 +746,7 @@
     <Content Include="resources\parc\Platforma telescopica - Genie S-60.jpg" />
     <Content Include="resources\parc\Platforma tijera electrica - Genie GS2646.jpg" />
     <Content Include="resources\parc\Pompa beton - Putzmeister BSA 1005 D.jpg" />
+    <Content Include="resources\parc\Putzmeister P715TD.jpg" />
     <Content Include="resources\parc\R124LA42NA420.jpg" />
     <Content Include="resources\parc\R400LA4X2MNA.jpg" />
     <Content Include="resources\parc\R420LA4X2MNA.jpg" />
@@ -750,6 +759,7 @@
     <Content Include="resources\parc\tga32.jpg" />
     <Content Include="resources\parc\Transporter - Volkswagen 7HC.jpg" />
     <Content Include="resources\parc\Utilaj de marcat asfalt - Hofmann H8.jpg" />
+    <Content Include="resources\parc\Zeppelin Z37.jpg" />
     <Content Include="resources\portofoliu\transilvania constructii\1.jpg" />
     <Content Include="resources\portofoliu\transilvania constructii\2.jpg" />
     <Content Include="resources\portofoliu\transilvania constructii\3.jpg" />
@@ -758,6 +768,7 @@
     <Content Include="resources\portofoliu\transilvania constructii\6.jpg" />
     <Content Include="resources\portofoliu\transilvania constructii\7.jpg" />
     <Content Include="resources\portofoliu\transilvania constructii\8.jpg" />
+    <Content Include="resources\poza prezentare utilaje.jpg" />
     <Content Include="resources\Productie si livrare beton 2.jpeg" />
     <Content Include="resources\Productie si livrare beton.jpeg" />
     <Content Include="scripts\app.js" />
@@ -791,7 +802,7 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>29635</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>

@@ -164,3 +164,7 @@ nav.am-nav {
 .contact li {
     padding-top: 7px;
 }
+
+.contact form fieldset {
+    border: none;
+}

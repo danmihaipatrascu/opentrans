@@ -1,6 +1,8 @@
 ﻿Style:
 -> increase font size on small devices
-
+-> links for home
+-> links on contact with all categorii utilaje: #/inchiriereutilaje#betoniera
+-> add lucrari photos
 
 SEO:
 
