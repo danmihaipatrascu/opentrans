@@ -274,6 +274,7 @@
     <Content Include="node_modules\angular-ui-bootstrap\template\typeahead\typeahead-match.html.js" />
     <Content Include="node_modules\angular-ui-bootstrap\template\typeahead\typeahead-popup.html" />
     <Content Include="node_modules\angular-ui-bootstrap\template\typeahead\typeahead-popup.html.js" />
+    <Content Include="node_modules\font-awsome\font-awsome.min.css" />
     <Content Include="packages.config" />
     <Content Include="package.json" />
     <Content Include="node_modules\angular\angular.min.js.gzip" />
@@ -493,6 +494,7 @@
     <None Include="Properties\PublishProfiles\OpenTrans - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\OpenTrans - Web Deploy.pubxml" />
     <Content Include="resources\logo opentrans.eps" />
+    <Content Include="resources\portofoliu.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -760,6 +762,17 @@
     <Content Include="resources\parc\Transporter - Volkswagen 7HC.jpg" />
     <Content Include="resources\parc\Utilaj de marcat asfalt - Hofmann H8.jpg" />
     <Content Include="resources\parc\Zeppelin Z37.jpg" />
+    <Content Include="resources\portofoliu\beclean\amenajari_beclean_1.jpg" />
+    <Content Include="resources\portofoliu\beclean\amenajari_beclean_2.jpg" />
+    <Content Include="resources\portofoliu\beclean\amenajari_beclean_3.jpg" />
+    <Content Include="resources\portofoliu\beclean\amenajari_beclean_4.jpg" />
+    <Content Include="resources\portofoliu\beclean\amenajari_beclean_5.jpg" />
+    <Content Include="resources\portofoliu\beclean\amenajari_beclean_6.jpg" />
+    <Content Include="resources\portofoliu\beclean\amenajari_beclean_7.jpg" />
+    <Content Include="resources\portofoliu\beclean\amenajari_beclean_8.jpg" />
+    <Content Include="resources\portofoliu\novis\lucrari_novis_1.jpg" />
+    <Content Include="resources\portofoliu\novis\lucrari_novis_2.jpg" />
+    <Content Include="resources\portofoliu\novis\lucrari_novis_3.jpg" />
     <Content Include="resources\portofoliu\transilvania constructii\1.jpg" />
     <Content Include="resources\portofoliu\transilvania constructii\2.jpg" />
     <Content Include="resources\portofoliu\transilvania constructii\3.jpg" />
@@ -768,6 +781,19 @@
     <Content Include="resources\portofoliu\transilvania constructii\6.jpg" />
     <Content Include="resources\portofoliu\transilvania constructii\7.jpg" />
     <Content Include="resources\portofoliu\transilvania constructii\8.jpg" />
+    <Content Include="resources\portofoliu\trc\transilvania_constructii_1.JPG" />
+    <Content Include="resources\portofoliu\trc\transilvania_constructii_10.jpg" />
+    <Content Include="resources\portofoliu\trc\transilvania_constructii_11.jpg" />
+    <Content Include="resources\portofoliu\trc\transilvania_constructii_12.jpg" />
+    <Content Include="resources\portofoliu\trc\transilvania_constructii_13.jpg" />
+    <Content Include="resources\portofoliu\trc\transilvania_constructii_2.jpg" />
+    <Content Include="resources\portofoliu\trc\transilvania_constructii_3.jpg" />
+    <Content Include="resources\portofoliu\trc\transilvania_constructii_4.jpg" />
+    <Content Include="resources\portofoliu\trc\transilvania_constructii_5.jpg" />
+    <Content Include="resources\portofoliu\trc\transilvania_constructii_6.jpg" />
+    <Content Include="resources\portofoliu\trc\transilvania_constructii_7.jpg" />
+    <Content Include="resources\portofoliu\trc\transilvania_constructii_8.jpg" />
+    <Content Include="resources\portofoliu\trc\transilvania_constructii_9.jpg" />
     <Content Include="resources\poza prezentare utilaje.jpg" />
     <Content Include="resources\Productie si livrare beton 2.jpeg" />
     <Content Include="resources\Productie si livrare beton.jpeg" />

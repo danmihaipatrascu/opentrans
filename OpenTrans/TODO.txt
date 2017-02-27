@@ -1,5 +1,5 @@
 ﻿TODO: 
-Google maps nu apare unde trebuie;
+Google maps nu apare unde trebuie; DONE(am schimbat locatia)
 Font-ul de pe Contact=>Adresa+Webstire+FB mai mici(ca si restul de la departamente)
 Facebook link: ceva mai sugestiv;
 
@@ -7,10 +7,16 @@ Style:
 -> increase font size on small devices
 -> links for home
 -> links on contact with all categorii utilaje: #/inchiriereutilaje#betoniera
--> add lucrari photos
+-> add lucrari photos(DONE)
+-> make portfoliu slider responsive
 
 SEO:
-
+title + description on every page
+alt text  for all photos
+(vezi lista)...
 
 
 Functionality:
+
+contact form: update destination email and change template on email.js
+pune video pe fb

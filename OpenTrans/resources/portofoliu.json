@@ -1,0 +1,129 @@
+﻿{
+  "beclean": [
+    {
+      "id": 1,
+      "nume": "Amenajare alei în incintă și trotuare - Campus Școlar Petru Rareș Beclean",
+      "urls": [ "resources/portofoliu/beclean/amenajari_beclean_1.jpg" ]
+    },
+    {
+      "id": 2,
+      "nume": "Amenajare alei în incintă și trotuare - Campus Școlar Petru Rareș Beclean",
+      "urls": [ "resources/portofoliu/beclean/amenajari_beclean_2.jpg" ]
+    },
+    {
+      "id": 3,
+      "nume": "Amenajare alei în incintă și trotuare - Campus Școlar Petru Rareș Beclean",
+      "urls": [ "resources/portofoliu/beclean/amenajari_beclean_3.jpg" ]
+    },
+    {
+      "id": 4,
+      "nume": "Amenajare alei în incintă și trotuare - Campus Școlar Petru Rareș Beclean",
+      "urls": [ "resources/portofoliu/beclean/amenajari_beclean_4.jpg" ]
+    },
+    {
+      "id": 5,
+      "nume": "Amenajare alei în incintă și trotuare - Campus Școlar Petru Rareș Beclean",
+      "urls": [ "resources/portofoliu/beclean/amenajari_beclean_5.jpg" ]
+    },
+    {
+      "id": 6,
+      "nume": "Amenajare alei în incintă și trotuare - Campus Școlar Petru Rareș Beclean",
+      "urls": [ "resources/portofoliu/beclean/amenajari_beclean_6.jpg" ]
+    },
+    {
+      "id": 7,
+      "nume": "Amenajare alei în incintă și trotuare - Campus Școlar Petru Rareș Beclean",
+      "urls": [ "resources/portofoliu/beclean/amenajari_beclean_7.jpg" ]
+    },
+    {
+      "id": 8,
+      "nume": "Amenajare alei în incintă și trotuare - Campus Școlar Petru Rareș Beclean",
+      "urls": [ "resources/portofoliu/beclean/amenajari_beclean_8.jpg" ]
+    }
+  ],
+
+  "trc": [
+    {
+      "id": 1,
+      "nume": "Parc Logistic TRC Cluj - JUCU: Acces incintă, drumuri și alei în incintă, parcări, spații verzi și împrejmuire",
+      "urls": [ "resources/portofoliu/trc/transilvania_constructii_1.jpg" ]
+    },
+    {
+      "id": 2,
+      "nume": "Parc Logistic TRC Cluj - JUCU: Acces incintă, drumuri și alei în incintă, parcări, spații verzi și împrejmuire",
+      "urls": [ "resources/portofoliu/trc/transilvania_constructii_2.jpg" ]
+    },
+    {
+      "id": 3,
+      "nume": "Parc Logistic TRC Cluj - JUCU: Acces incintă, drumuri și alei în incintă, parcări, spații verzi și împrejmuire",
+      "urls": [ "resources/portofoliu/trc/transilvania_constructii_3.jpg" ]
+    },
+    {
+      "id": 4,
+      "nume": "Parc Logistic TRC Cluj - JUCU: Acces incintă, drumuri și alei în incintă, parcări, spații verzi și împrejmuire",
+      "urls": [ "resources/portofoliu/trc/transilvania_constructii_4.jpg" ]
+    },
+    {
+      "id": 5,
+      "nume": "Parc Logistic TRC Cluj - JUCU: Acces incintă, drumuri și alei în incintă, parcări, spații verzi și împrejmuire",
+      "urls": [ "resources/portofoliu/trc/transilvania_constructii_5.jpg" ]
+    },
+    {
+      "id": 6,
+      "nume": "Parc Logistic TRC Cluj - JUCU: Acces incintă, drumuri și alei în incintă, parcări, spații verzi și împrejmuire",
+      "urls": [ "resources/portofoliu/trc/transilvania_constructii_6.jpg" ]
+    },
+    {
+      "id": 7,
+      "nume": "Parc Logistic TRC Cluj - JUCU: Acces incintă, drumuri și alei în incintă, parcări, spații verzi și împrejmuire",
+      "urls": [ "resources/portofoliu/trc/transilvania_constructii_7.jpg" ]
+    },
+    {
+      "id": 8,
+      "nume": "Parc Logistic TRC Cluj - JUCU: Acces incintă, drumuri și alei în incintă, parcări, spații verzi și împrejmuire",
+      "urls": [ "resources/portofoliu/trc/transilvania_constructii_8.jpg" ]
+    },
+    {
+      "id": 10,
+      "nume": "Parc Logistic TRC Cluj - JUCU: Acces incintă, drumuri și alei în incintă, parcări, spații verzi și împrejmuire",
+      "urls": [ "resources/portofoliu/trc/transilvania_constructii_9.jpg" ]
+    },
+    {
+      "id": 11,
+      "nume": "Parc Logistic TRC Cluj - JUCU: Acces incintă, drumuri și alei în incintă, parcări, spații verzi și împrejmuire",
+      "urls": [ "resources/portofoliu/trc/transilvania_constructii_11.jpg" ]
+    },
+    {
+      "id": 12,
+      "nume": "Parc Logistic TRC Cluj - JUCU: Acces incintă, drumuri și alei în incintă, parcări, spații verzi și împrejmuire",
+      "urls": [ "resources/portofoliu/trc/transilvania_constructii_12.jpg" ]
+    },
+    {
+      "id": 13,
+      "nume": "Parc Logistic TRC Cluj - JUCU: Acces incintă, drumuri și alei în incintă, parcări, spații verzi și împrejmuire",
+      "urls": [ "resources/portofoliu/trc/transilvania_constructii_13.jpg" ]
+    },
+    {
+      "id": 9,
+      "nume": "Parc Logistic TRC Cluj - JUCU: Acces incintă, drumuri și alei în incintă, parcări, spații verzi și împrejmuire",
+      "urls": [ "resources/portofoliu/trc/transilvania_constructii_9.jpg" ]
+    }
+  ],
+  "novis": [
+    {
+      "id": 1,
+      "nume": "Amenajări exterioare - Novis Plaza Cluj",
+      "urls": [ "resources/portofoliu/novis/lucrari_novis_1.jpg" ]
+    },
+    {
+      "id": 2,
+      "nume": "Amenajări exterioare - Novis Plaza Cluj",
+      "urls": [ "resources/portofoliu/novis/lucrari_novis_2.jpg" ]
+    },
+    {
+      "id": 3,
+      "nume": "Amenajări exterioare - Novis Plaza Cluj",
+      "urls": [ "resources/portofoliu/novis/lucrari_novis_3.jpg" ]
+    }
+  ]
+}
