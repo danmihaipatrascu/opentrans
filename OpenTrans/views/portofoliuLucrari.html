@@ -8,8 +8,6 @@
 </head>
 
 <body>
-
-    <!--TODO: use img-responsive class-->
     <div class="container">
         <h2>Portofoliu lucrari</h2>
         <div class="panel-group" id="accordion">
@@ -19,15 +17,11 @@
                         <a data-toggle="collapse" data-parent="#accordion" href="#portofoliu#drumuriPoduri"><span style="font-size:20px"><strong>Drumuri si poduri</strong></span></a>
                     </h3>
                 </div>
-                <div id="drumuriPoduri" class="panel-collapse collapse ">
+                <div id="drumuriPoduri" class="panel-collapse collapse in ">
                     <div class="panel-body">
                         <ul style="list-style-type:circle">
                             <li style="padding-bottom:5px">
-                                <a ng-click="openSlider()"> <h4> Realizare drumuri forestiere în comuna Mărgău</h4></a>
-                                <!--<img class="img-responsive"  ng-src="resources/parc/Autoutilitara - Citroen Jumper.jpg" />-->
-                            </li>
-                            <li style="padding-bottom:5px">
-                                <a><h4> Modernizare drumuri și platforme - Transilvania C-ții SA</h4></a>
+                                <a ng-click="openSlider()" ><h4> Modernizare drumuri și platforme - Transilvania C-ții SA <sub> [vezi imagini]</sub></h4></a>
                             </li>
                             <li style="padding-bottom:5px">
                                 <a> <h4> Realizare drumuri acces - ansamblu rezidențial str. Brăduțului, Cluj-Napoca</h4></a>
@@ -37,6 +31,9 @@
                             </li>
                             <li style="padding-bottom:5px">
                                 <a> <h4> Lucrări de refacere carosabil, trotuare și spații verzi în urma lucrărilor executate de EON Distribuție România S.A. pe raza județului Cluj</h4></a>
+                            </li>
+                            <li style="padding-bottom:5px">
+                                <a ng-click="openSlider()"> <h4> Realizare drumuri forestiere în comuna Mărgău</h4></a>
                             </li>
                         </ul>
                     </div>
@@ -49,9 +46,9 @@
                     <a data-toggle="collapse" data-parent="#accordion" href="#portofoliu#amenajariExterioare"><span style="font-size:20px"><b>Amenajari exterioare</b></span></a>
                 </h3>
             </div>
-            <div id="amenajariExterioare" class="panel-collapse collapse">
+            <div id="amenajariExterioare" class="panel-collapse collapse in">
                 <div class="panel-body">
-                    <ul style="list-style-type:disc">
+                    <ul style="list-style-type:circle">
                         <li style="padding-bottom:5px">
                             <a> <h4>Amenajări exterioare - Novis Plaza Cluj</h4></a>
                         </li>
@@ -71,7 +68,6 @@
                         </li>
 
                     </ul>
-                    <!--<img ng-src="resources/parc/tga32.jpg" />-->
                 </div>
             </div>
         </div>
@@ -81,9 +77,9 @@
                     <a data-toggle="collapse" data-parent="#accordion" href="#portofoliu#constructiiCivile"><span style="font-size:20px"><b>Constructii civile, industriale si agricole</b></span></a>
                 </h3>
             </div>
-            <div id="constructiiCivile" class="panel-collapse collapse">
+            <div id="constructiiCivile" class="panel-collapse collapse in">
                 <div class="panel-body">
-                    <ul style="list-style-type:none">
+                    <ul style="list-style-type:circle">
                         <li style="padding-bottom:5px">
                             <a><h4>Execuție copertină metalică pentru control acces - Aeroportul Internațional Avram Iancu Cluj R.A</h4></a>
                         </li>
@@ -113,78 +109,3 @@
 
 </html>
 
-
-
-<!--<head>
-    <title></title>
-    <script type="text/javascript">
-        var picPaths = ['resources/parc/actros.jpg', 'resources/parc/Motogreder - Komatsu GD 555-5.jpg', 'resources/parc/Nacela cu platforma - JLG 40RTS.jpg'];
-        var curPic = -1;
-        //preload the images for smooth animation
-        var imgO = new Array();
-        for (i = 0; i < picPaths.length; i++) {
-            imgO[i] = new Image();
-            imgO[i].src = picPaths[i];
-        }
-
-        function swapImage() {
-            curPic = (++curPic > picPaths.length - 1) ? 0 : curPic;
-            imgCont.src = imgO[curPic].src;
-            setTimeout(swapImage, 2000);
-        }
-
-        window.onload = function () {
-            imgCont = document.getElementById('imgBanner');
-            swapImage();
-        }
-    </script>
-
-    <style type="text/css">
-        .parc img {
-        }
-
-        .masini-container {
-        }
-
-        .masina-container {
-            text-align: center;
-            overflow: hidden;
-        }
-
-            .masina-container img {
-                margin: auto;
-            }
-
-        @media (max-width:1200px) {
-            .masina-container img {
-                height: 200px;
-                width: 300px;
-            }
-        }
-
-        @media (min-width:1200px) {
-            .masina-container img {
-                height: 300px;
-                width: 450px;
-            }
-
-            li.hiddenOnLarge {
-                display: none;
-            }
-        }
-    </style>
-
-</head>
-<body>
-    <div class="row">
-        <div class="panel panel-default col-sm-6">
-            <div class="panel-body">
-                <div class="masina-container">
-                    <img id="imgBanner" src="" alt="" />
-                </div>
-            </div>
-        </div> <div style="width:500px" class="col-sm-6">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/AUCIMg_WoaU" frameborder="0" allowfullscreen></iframe>
-        </div>
-    </div>
-</body>-->

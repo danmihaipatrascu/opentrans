@@ -750,6 +750,14 @@
     <Content Include="resources\parc\tga32.jpg" />
     <Content Include="resources\parc\Transporter - Volkswagen 7HC.jpg" />
     <Content Include="resources\parc\Utilaj de marcat asfalt - Hofmann H8.jpg" />
+    <Content Include="resources\portofoliu\transilvania constructii\1.jpg" />
+    <Content Include="resources\portofoliu\transilvania constructii\2.jpg" />
+    <Content Include="resources\portofoliu\transilvania constructii\3.jpg" />
+    <Content Include="resources\portofoliu\transilvania constructii\4.jpg" />
+    <Content Include="resources\portofoliu\transilvania constructii\5.jpg" />
+    <Content Include="resources\portofoliu\transilvania constructii\6.jpg" />
+    <Content Include="resources\portofoliu\transilvania constructii\7.jpg" />
+    <Content Include="resources\portofoliu\transilvania constructii\8.jpg" />
     <Content Include="resources\Productie si livrare beton 2.jpeg" />
     <Content Include="resources\Productie si livrare beton.jpeg" />
     <Content Include="scripts\app.js" />
