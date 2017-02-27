@@ -20,7 +20,7 @@ a.navbar-brand {
 }
 
 @media (max-width:1023px) {
-    a.navbar-brand, a.navbar-brand img{
+    a.navbar-brand, a.navbar-brand img {
         width: 250px;
     }
 }
@@ -155,4 +155,12 @@ nav.am-nav {
 .modalImage .image-description {
     text-align: center;
     margin-top: 10px;
+}
+
+.contact .departamente {
+    font-size: 1.2em;
+}
+
+.contact li {
+    padding-top: 7px;
 }

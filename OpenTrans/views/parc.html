@@ -75,13 +75,13 @@
             position: fixed;
             left: 0;
             top: 10%;
-            width: 150px;
             z-index: 5;
             opacity: 0.85;
         }
 
-            .floatingleftmenu ul li a {
-                padding: 5px;
+            .floatingleftmenu ul li input {
+                width: 150px;
+                padding: 7px;
             }
 
         .panel.panel-default {
@@ -90,7 +90,7 @@
     <div class="floatingleftmenu">
         <ul class="nav nav-pills nav-stacked nav-float">
             <li ng-repeat="tip in tipuri">
-                <a href="{{'#inchiriereutilaje#'+tip}}">{{tip}}</a>
+                <input type="button" class="btn btn-default" scroll-on-click href="#{{tip.replace(' ','')}}" )" value="{{tip}}" />
             </li>
         </ul>
     </div>
@@ -101,7 +101,7 @@
             <div class="row">
                 <script type="text/javascript">
                 </script>
-                <div class="col-lg-6 masini-container" ng-repeat="cat in categorii" id="{{cat.nume}}">
+                <div class="col-lg-6 masini-container" ng-repeat="cat in categorii" id="{{cat.nume.replace(' ','')}}">
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <table>

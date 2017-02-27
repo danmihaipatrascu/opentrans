@@ -1,4 +1,4 @@
-﻿myApp.controller('ParcCtrl', function ($scope, $http, $uibModal) {
+﻿myApp.controller('ParcCtrl', function ($scope, $http, $uibModal, $location, $anchorScroll) {
     $scope.masini = [];
     loadMasini();
     $scope.tipuri = ['Autobetoniera',
@@ -78,6 +78,19 @@
             $scope.categorii[catIndex].numeUtilaj = nume;
     };
 
+    $scope.gotoAnchor = function (x) {
+        var newHash = x;
+        if ($location.hash() !== newHash) {
+            // set the $location.hash to `newHash` and
+            // $anchorScroll will automatically scroll to it
+            $location.hash(x);
+        } else {
+            // call $anchorScroll() explicitly,
+            // since $location.hash hasn't changed
+            $anchorScroll();
+        }
+    };
+
     $scope.myInterval = 5000;
     $scope.noWrapSlides = false;
     $scope.active = 0;
@@ -101,4 +114,21 @@
             };
         }
     };
+})
+.directive('scrollOnClick', function () {
+    return {
+        restrict: 'A',
+        link: function (scope, $elm, attrs) {
+            var idToScroll = attrs.href;
+            $elm.on('click', function () {
+                var $target;
+                if (idToScroll) {
+                    $target = $(idToScroll);
+                } else {
+                    $target = $elm;
+                }
+                $("body").animate({ scrollTop: $target.offset().top - 100 }, "slow");
+            });
+        }
+    }
 });
