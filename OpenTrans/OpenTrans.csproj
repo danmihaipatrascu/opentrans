@@ -66,9 +66,6 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="node_modules\angular-route\angular-route.js" />
-    <Content Include="node_modules\angular-route\angular-route.min.js" />
-    <Content Include="node_modules\angular-route\index.js" />
     <Content Include="node_modules\angular-ui-bootstrap\dist\ui-bootstrap-csp.css" />
     <Content Include="node_modules\angular-ui-bootstrap\dist\ui-bootstrap-tpls.js" />
     <Content Include="node_modules\angular-ui-bootstrap\dist\ui-bootstrap.js" />
@@ -274,7 +271,19 @@
     <Content Include="node_modules\angular-ui-bootstrap\template\typeahead\typeahead-match.html.js" />
     <Content Include="node_modules\angular-ui-bootstrap\template\typeahead\typeahead-popup.html" />
     <Content Include="node_modules\angular-ui-bootstrap\template\typeahead\typeahead-popup.html.js" />
-    <Content Include="node_modules\font-awsome\font-awsome.min.css" />
+    <Content Include="node_modules\angular-ui-router\release\angular-ui-router.js" />
+    <Content Include="node_modules\angular-ui-router\release\angular-ui-router.min.js" />
+    <Content Include="node_modules\angular-ui-router\src\common.js" />
+    <Content Include="node_modules\angular-ui-router\src\resolve.js" />
+    <Content Include="node_modules\angular-ui-router\src\state.js" />
+    <Content Include="node_modules\angular-ui-router\src\stateDirectives.js" />
+    <Content Include="node_modules\angular-ui-router\src\stateFilters.js" />
+    <Content Include="node_modules\angular-ui-router\src\templateFactory.js" />
+    <Content Include="node_modules\angular-ui-router\src\urlMatcherFactory.js" />
+    <Content Include="node_modules\angular-ui-router\src\urlRouter.js" />
+    <Content Include="node_modules\angular-ui-router\src\view.js" />
+    <Content Include="node_modules\angular-ui-router\src\viewDirective.js" />
+    <Content Include="node_modules\angular-ui-router\src\viewScroll.js" />
     <Content Include="packages.config" />
     <Content Include="package.json" />
     <Content Include="node_modules\angular\angular.min.js.gzip" />
@@ -451,11 +460,6 @@
     <Content Include="node_modules\jquery\package.json" />
     <Content Include="node_modules\jquery\README.md" />
     <Content Include="node_modules\jquery\src\.jshintrc" />
-    <Content Include="node_modules\angular-route\angular-route.min.js.map" />
-    <Content Include="node_modules\angular-route\bower.json" />
-    <Content Include="node_modules\angular-route\LICENSE.md" />
-    <Content Include="node_modules\angular-route\package.json" />
-    <Content Include="node_modules\angular-route\README.md" />
     <Content Include="node_modules\angular-ui-bootstrap\CHANGELOG.md" />
     <Content Include="node_modules\angular-ui-bootstrap\LICENSE" />
     <Content Include="node_modules\angular-ui-bootstrap\package.json" />
@@ -491,6 +495,11 @@
     <Content Include="resources\logo opentrans - Copy.gif" />
     <Content Include="resources\logo opentrans.svg" />
     <Content Include="resources\masini.json" />
+    <Content Include="node_modules\angular-ui-router\CHANGELOG.md" />
+    <Content Include="node_modules\angular-ui-router\CONTRIBUTING.md" />
+    <Content Include="node_modules\angular-ui-router\LICENSE" />
+    <Content Include="node_modules\angular-ui-router\package.json" />
+    <Content Include="node_modules\angular-ui-router\README.md" />
     <None Include="Properties\PublishProfiles\OpenTrans - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\OpenTrans - Web Deploy.pubxml" />
     <Content Include="resources\logo opentrans.eps" />

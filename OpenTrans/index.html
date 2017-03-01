@@ -8,7 +8,7 @@
 
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/angular/angular.min.js"></script>
-    <script src="node_modules/angular-route/angular-route.min.js"></script>
+    <script src="node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="node_modules/angular-ui-bootstrap/dist/ui-bootstrap.js"></script>
     <script src="node_modules/angular-ui-bootstrap/dist/ui-bootstrap-tpls.js"></script>
@@ -31,7 +31,7 @@
         <br />
         <br />
         <!-- by ng-view we create a space in this dynamic content come according to route by ng-view angular know that on which area content will set-->
-        <div ng-view=""></div>
+        <div ui-view="container"></div>
         <div ng-controller="NavCtrl">
             <nav class="navbar navbar-default navbar-fixed-top am-nav">
                 <div class="container-fluid">
@@ -44,36 +44,36 @@
                             <span class="icon-bar"></span>
                         </button>
                         <a class="navbar-brand" href="#home">
-                            <img src="resources/logo opentrans.svg" alt="OPENTRANS" style="height: 44px; width: 308px;"/>
+                            <img src="resources/logo opentrans.svg" alt="OPENTRANS" style="height: 44px; width: 308px;" />
                         </a>
                     </div>
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
                             <li ng-class="{ active: isActive('/paginaprincipala')}">
-                                <a href="#paginaprincipala" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">Pagina principala</a>
+                                <a ui-sref="root.paginaprincipala">Pagina principala</a>
                             </li>
                             <li ng-class="{ active: isActive('/inchiriereutilaje')}">
-                                <a href="#inchiriereutilaje" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">Inchirieri Utilaje</a>
+                                <a ui-sref="root.inchiriereutilaje">Inchirieri Utilaje</a>
                             </li>
                             <li ng-class="{ active: isActive('/portofoliu')}">
-                                <a href="#portofoliu" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">Portofoliu Lucrari</a>
+                                <a ui-sref="root.portofoliu">Portofoliu Lucrari</a>
                             </li>
                             <li ng-class="{ active: isActive('/despre')}">
-                                <a href="#despre" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">Despre noi</a>
+                                <a ui-sref="root.despre">Despre noi</a>
                             </li>
                             <li ng-class="{ active: isActive('/contact')}">
-                                <a href="#contact" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">Contact</a>
+                                <a scroll-on-click href="#contact">Contact</a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
             <br />
-            <nav class="footer row" ng-if="!isActive('/contact')">
+            <nav class="footer row">
                 <hr />
                 <div class="row">
-                    <div ng-include="'/views/contact.html'"></div>
+                    <div ui-view="contact"></div>
                 </div>
             </nav>
         </div>

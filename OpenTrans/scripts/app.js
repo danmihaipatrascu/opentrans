@@ -1,47 +1,78 @@
 //create a module myApp
 var myApp = angular.module('myApp',
-    ['ngRoute',
+    ['ui.router',
     'ui.bootstrap']);
 
 //Now Configure  our  routing
-myApp.config(function ($routeProvider, $locationProvider) {
-    $routeProvider
+myApp.config(function ($stateProvider, $urlRouterProvider) {
+    $stateProvider
+
+   // set route for the contact page
+        .state('root', {
+            url: '',
+            abstract: true,
+            views: {
+                'contact': {
+                    url: '/contact',
+                    templateUrl: 'views/contact.html'
+                }
+            }
+        })
     // set route for the home page
-    .when('/paginaprincipala',
+    .state('root.paginaprincipala',
     {
-        controller: 'HomeCtrl',
-        templateUrl: 'views/home.html'
+        url: '/paginaprincipala',
+        views: {
+            'container@': {
+                controller: 'HomeCtrl',
+                templateUrl: 'views/home.html'
+            }
+        }
     })
 
-    .when('/inchiriereutilaje', {
-        controller: 'ParcCtrl',
-        templateUrl: 'views/parc.html'
+    .state('root.inchiriereutilaje', {
+        url: '/inchiriereutilaje',
+        views: {
+            'container@': {
+                controller: 'ParcCtrl',
+                templateUrl: 'views/parc.html'
+            }
+        }
     })
 
     // set route for the about page
-   .when('/portofoliu', {
-       controller: 'PortofoliuCtrl',
-       templateUrl: 'views/portofoliuLucrari.html'
+   .state('root.portofoliu', {
+       url: '/portofoliu',
+       views: {
+           'container@': {
+               controller: 'PortofoliuCtrl',
+               templateUrl: 'views/portofoliuLucrari.html'
+           }
+       }
    })
 
      // set route for the about page
-    .when('/despre', {
-        controller: 'AboutCtrl',
-        templateUrl: 'views/aboutus.html'
-    })
-
-   // set route for the contact page
-
-    .when('/contact', {
-        templateUrl: 'views/contact.html'
-    })
+    .state('root.despre', {
+        url: '/despre',
+        views: {
+            'container@': {
+                controller: 'AboutCtrl',
+                templateUrl: 'views/aboutus.html'
+            }
+        }
+    });
 
     // if not match with any route config then send to home page
 
-     .otherwise({
-         redirectTo: '/paginaprincipala'
-     });
 
+    $urlRouterProvider.otherwise('/paginaprincipala');
+})
+.run(function ($rootScope, $state, $stateParams) {
+    $rootScope.$state = $state;
+    $rootScope.$stateParams = $stateParams;
+    $rootScope.$on('$stateChangeSuccess', function () {
+        document.body.scrollTop = document.documentElement.scrollTop = 0;
+    });
 });
 
 // create the controller and inject Angular's $scope
@@ -55,10 +86,14 @@ myApp.controller('NavCtrl', function ($scope, $location) {
 });
 
 // set for Home Controller
-myApp.controller('HomeCtrl', function ($scope) {
+myApp.controller('HomeCtrl', function ($scope, $state) {
     // create a message to display in our view
     $scope.hover = $scope.hover || {};
     $scope.message = "(',')---I am on Home page---(',')";
+
+    $scope.goToPage = function (page) {
+        $state.go(page);
+    }
 });
 
 // set for About Controller
