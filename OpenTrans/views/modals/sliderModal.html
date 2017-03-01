@@ -1,21 +1,21 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-    <title></title>
-	<meta charset="utf-8" />
-</head>
-<body>
-    <div class="panel-body">
-        <div>
+﻿<div>
+    <!--<div class="panel-body" style="max-width:100%">
+        <div uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides" max-width:100%>
+            <div uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id">
+                <img class="img-responsive" ng-src="{{slide.image}}" style="margin:auto;" alt="{{slide.text}}">
+                <div class="carousel-caption">
+                    <p>{{slide.text}}</p>
+                </div>
+            </div>
+        </div>
+    </div>-->
+
             <div uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
                 <div uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id">
-                    <img class="img-responsive" ng-src="{{slide.image}}" style="margin:auto;" alt="{{slide.text}}">
+                    <img ng-src="{{slide.image}}" style="margin:auto; max-width:100%; height:auto;">
                     <div class="carousel-caption">
                         <p>{{slide.text}}</p>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-</body>
-</html>
+</div>

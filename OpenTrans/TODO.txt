@@ -1,22 +1,18 @@
 ﻿TODO: 
-Google maps nu apare unde trebuie; DONE(am schimbat locatia)
 Font-ul de pe Contact=>Adresa+Webstire+FB mai mici(ca si restul de la departamente)
 Facebook link: ceva mai sugestiv;
+Inchirieri utilaje page nu apare bine pe mobile(descrierea utilajului e in afara containerului)
 
 Style:
 -> increase font size on small devices
 -> links for home
 -> links on contact with all categorii utilaje: #/inchiriereutilaje#betoniera
--> add lucrari photos(DONE)
--> make portfoliu slider responsive !!!!
+-> !!!  make portfoliu slider responsive !!!!
 
 SEO:
-title + description on every page DONE
 alt text  for all photos DONE
-
 redirect links from old site
 (vezi lista)...TODO
-
 
 Functionality:
 
