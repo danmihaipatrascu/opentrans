@@ -1,127 +1,130 @@
-﻿<head>
+﻿<html>
+<head>
     <title>
-        Inchirieri utilaje
+        Inchirieri utilaje Cluj Napoca
     </title>
     <meta name="description" content="Inchirieri utilaje Cluj Napoca Inchirieri exavatoare Inchirieri buldozere Inchiriere macarale Inchiriere stivuitoare Inchiriere foreze">
 </head>
 
-<div class="parc">
-    <style type="text/css">
-        .parc img {
-        }
-
-        .masini-container {
-        }
-
-        .masina-container {
-            text-align: center;
-        }
-
-            .masina-container img {
-                margin: auto;
+<body>
+    <div class="parc">
+        <style type="text/css">
+            .parc img {
             }
 
-        @media (max-width:1200px) {
-            .masina-container img {
-                height: 200px;
-                width: 300px;
+            .masini-container {
             }
 
-            .floatingleftmenu {
-                display: none;
-            }
-        }
-
-        @media (min-width:1200px) {
-            .masina-container img {
-                height: 300px;
-                width: 450px;
-            }
-
-            li.hiddenOnLarge {
-                display: none;
-            }
-
-            .masina-container .carousel-indicators {
-                bottom: 35px;
-            }
-
-            .masina-container .font-small {
-                font-size: 1.2em;
-            }
-        }
-
-        .masina-container .carousel-caption {
-            display: none;
-        }
-
-        .masini-container .cat-heading {
-            font-size: 2.1em;
-            min-width: 300px;
-        }
-
-        .masini-container .panel-heading table {
-            height: 60px;
-            background-color: transparent;
-            width: 100%;
-        }
-
-            .masini-container .panel-heading table .new-caption-area {
-                font-size: 1.2em;
+            .masina-container {
                 text-align: center;
             }
 
-        .floatingleftmenu {
-            position: fixed;
-            left: 0;
-            top: 10%;
-            z-index: 5;
-            opacity: 0.85;
-        }
+                .masina-container img {
+                    margin: auto;
+                }
 
-            .floatingleftmenu ul li input {
-                width: 150px;
-                padding: 7px;
+            @media (max-width:1200px) {
+                .masina-container img {
+                    height: 200px;
+                    width: 300px;
+                }
+
+                .floatingleftmenu {
+                    display: none;
+                }
             }
 
-        .panel.panel-default {
-        }
-    </style>
-    <div class="floatingleftmenu">
-        <ul class="nav nav-pills nav-stacked nav-float">
-            <li ng-repeat="tip in tipuri">
-                <input type="button" class="btn btn-default" scroll-on-click href="#{{tip.replace(' ','')}}" value="{{tip}}" />
-            </li>
-        </ul>
-    </div>
-    <br />
-    <br />
-    <div class="row">
-        <div class="col-md-10 col-md-offset-2 col-lg-11 col-lg-offset-1">
-            <div class="row">
-                <script type="text/javascript">
-                </script>
-                <div class="col-lg-6 masini-container" ng-repeat="cat in categorii" id="{{cat.nume.replace(' ','')}}">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <table>
-                                <tr>
-                                    <td class="cat-heading">
-                                        <span>{{cat.nume}}</span>
-                                    </td>
-                                    <td class="new-caption-area">
-                                        <span>{{cat.numeUtilaj}}</span>
-                                    </td>
-                                </tr>
-                            </table>
-                        </div>
-                        <div class="panel-body">
-                            <div class="masina-container">
-                                <div uib-carousel active="active" interval="myInterval" on-carousel-change="onSlideChanged(nextSlide, direction, {{$index}})">
-                                    <div uib-slide ng-repeat="slide in cat.masini track by slide.id" index="slide.id">
-                                        <img class="img-responsive" ng-src="{{slide.url}}" style="margin:auto;" alt="{{slide.nume}}">
-                                        <div class="carousel-caption">
-                                            <p>{{slide.nume}}</p>
+            @media (min-width:1200px) {
+                .masina-container img {
+                    height: 300px;
+                    width: 450px;
+                }
+
+                li.hiddenOnLarge {
+                    display: none;
+                }
+
+                .masina-container .carousel-indicators {
+                    bottom: 35px;
+                }
+
+                .masina-container .font-small {
+                    font-size: 1.2em;
+                }
+            }
+
+            .masina-container .carousel-caption {
+                display: none;
+            }
+
+            .masini-container .cat-heading {
+                font-size: 2.1em;
+                min-width: 300px;
+            }
+
+            .masini-container .panel-heading table {
+                height: 60px;
+                background-color: transparent;
+                width: 100%;
+            }
+
+                .masini-container .panel-heading table .new-caption-area {
+                    font-size: 1.2em;
+                    text-align: center;
+                }
+
+            .floatingleftmenu {
+                position: fixed;
+                left: 0;
+                top: 10%;
+                z-index: 5;
+                opacity: 0.85;
+            }
+
+                .floatingleftmenu ul li input {
+                    width: 150px;
+                    padding: 7px;
+                }
+
+            .panel.panel-default {
+            }
+        </style>
+        <div class="floatingleftmenu">
+            <ul class="nav nav-pills nav-stacked nav-float">
+                <li ng-repeat="tip in tipuri">
+                    <input type="button" class="btn btn-default" scroll-on-click href="#{{tip.replace(' ','')}}" value="{{tip}}" />
+                </li>
+            </ul>
+        </div>
+        <br />
+        <br />
+        <div class="row">
+            <div class="col-md-10 col-md-offset-2 col-lg-11 col-lg-offset-1">
+                <div class="row">
+                    <script type="text/javascript">
+                    </script>
+                    <div class="col-lg-6 masini-container" ng-repeat="cat in categorii" id="{{cat.nume.replace(' ','')}}">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <table>
+                                    <tr>
+                                        <td class="cat-heading">
+                                            <span>{{cat.nume}}</span>
+                                        </td>
+                                        <td class="new-caption-area">
+                                            <span>{{cat.numeUtilaj}}</span>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="panel-body">
+                                <div class="masina-container">
+                                    <div uib-carousel active="active" interval="myInterval" on-carousel-change="onSlideChanged(nextSlide, direction, {{$index}})">
+                                        <div uib-slide ng-repeat="slide in cat.masini track by slide.id" index="slide.id">
+                                            <img class="img-responsive" ng-src="{{slide.url}}" style="margin:auto;" alt="{{slide.nume}}">
+                                            <div class="carousel-caption">
+                                                <p>{{slide.nume}}</p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -132,4 +135,5 @@
             </div>
         </div>
     </div>
-</div>
+</body>
+</html>
