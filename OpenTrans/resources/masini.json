@@ -8,19 +8,19 @@
     },
     {
       "id": 2,
-      "tip": "Pompa beton",
+      "tip": "Autopompa",
       "nume": "Autopompa beton cu lungimea bratului de 28 m",
       "urls": [ "resources/parc/actros.jpg" ]
     },
     {
       "id": 3,
-      "tip": "Pompa beton",
+      "tip": "Pompa stationara",
       "nume": "Pompa stationara 50 mc/h",
       "urls": [ "resources/parc/Pompa beton - Putzmeister BSA 1005 D.jpg" ]
     },
     {
       "id": 4,
-      "tip": "Pompa beton",
+      "tip": "Pompa stationara",
       "nume": "Pompa stationara 18 mc/h",
       "urls": [ "resources/parc/Putzmeister P715TD.jpg" ]
     },

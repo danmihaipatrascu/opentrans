@@ -2,7 +2,8 @@
     $scope.masini = [];
     loadMasini();
     $scope.tipuri = ['Autobetoniera',
-                    'Pompa beton',
+                    'Autopompa',
+                    'Pompa stationara',
                     'Autoutilitara',
                     'Automacara',
                     'Utilaj multifunctional',
