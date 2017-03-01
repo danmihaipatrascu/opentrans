@@ -8,15 +8,17 @@ Style:
 -> links for home
 -> links on contact with all categorii utilaje: #/inchiriereutilaje#betoniera
 -> add lucrari photos(DONE)
--> make portfoliu slider responsive
+-> make portfoliu slider responsive !!!!
 
 SEO:
-title + description on every page
-alt text  for all photos
-(vezi lista)...
+title + description on every page DONE
+alt text  for all photos DONE
+
+redirect links from old site
+(vezi lista)...TODO
 
 
 Functionality:
 
-contact form: update destination email and change template on email.js
-pune video pe fb
+contact form: update destination email and change template on email.js DONE
+pune video pe fb DONE
