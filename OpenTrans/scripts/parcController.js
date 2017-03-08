@@ -7,6 +7,7 @@
                     'Autoutilitara',
                     'Automacara',
                     'Utilaj multifunctional',
+                    'Utilaj dezapezire',
                     'Incarcator frontal',
                     'Stivuitor',
                     'Greder',

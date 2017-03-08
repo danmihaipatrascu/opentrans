@@ -1,7 +1,7 @@
 ﻿TODO: 
 Font-ul de pe Contact=>Adresa+Webstire+FB mai mici(ca si restul de la departamente)
 Facebook link: ceva mai sugestiv;
-Inchirieri utilaje page nu apare bine pe mobile(descrierea utilajului e in afara containerului)
+Inchirieri utilaje page nu apare bine pe mobile(descrierea utilajului e in afara containerului) DONE
 
 Style:
 -> increase font size on small devices
@@ -11,10 +11,7 @@ Style:
 
 SEO:
 alt text  for all photos DONE
-redirect links from old site
+!!!!! redirect links from old site
 (vezi lista)...TODO
 
 Functionality:
-
-contact form: update destination email and change template on email.js DONE
-pune video pe fb DONE

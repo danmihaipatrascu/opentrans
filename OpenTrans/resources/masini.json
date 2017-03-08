@@ -1,6 +1,13 @@
 {
   "masini": [
     {
+      "id": 104,
+      "tip": "Autobetoniera",
+      "nume": "Autobetoniera Renault",
+      "urls": [ "resources/parc/Autobetoniera.jpg" ]
+    },
+
+    {
       "id": 1,
       "tip": "Autobetoniera",
       "nume": "Autobetoniera capacitate 9 mc ",
@@ -22,7 +29,14 @@
       "id": 4,
       "tip": "Pompa stationara",
       "nume": "Pompa stationara 18 mc/h",
-      "urls": [ "resources/parc/Putzmeister P715TD.jpg" ]
+      "urls": [ "resources/parc/Pompa stationara 18 mch.jpg" ]
+    },
+
+    {
+      "id": 102,
+      "tip": "Autoutilitara",
+      "nume": "Autoutilitara pentru transport ciment",
+      "urls": [ "resources/parc/Autoutilitara pentru transport ciment.jpg" ]
     },
     {
       "id": 5,
@@ -53,7 +67,7 @@
       "id": 9,
       "tip": "Autoutilitara",
       "nume": "Autoutilitara cu macara capacitate 7 to cu remorca proprie",
-      "urls": [ "resources/parc/R420LA4X2MNA.jpg" ]
+      "urls": [ "resources/parc/Autoutilitara cu macara capacitate 7 to cu remorca proprie.jpg" ]
     },
     {
       "id": 10,
@@ -73,11 +87,12 @@
       "nume": "Autoraspanditor emulsie pentru lucrari de asfaltare, amorsare",
       "urls": [ "resources/parc/R420LA4X2MNA.jpg" ]
     },
+
     {
       "id": 13,
       "tip": "Automacara",
       "nume": "Automacara Grove capacitate 35 to",
-      "urls": [ "resources/parc/MacaraMobilaGroveGMX2035E.jpg" ]
+      "urls": [ "resources/parc/Automacara Grove capacitate 35 to.jpg" ]
     },
     {
       "id": 14,
@@ -97,6 +112,21 @@
       "nume": "Utilaj multifunctional Unimog cu lama, sararita si perie",
       "urls": [ "resources/parc/sararita.jpg" ]
     },
+
+    {
+      "id": 101,
+      "tip": "Utilaj dezapezire",
+      "nume": "Utilaj de dezapezit",
+      "urls": [ "resources/parc/Utilaj de deszapezit.jpg" ]
+    },
+
+    {
+      "id": 103,
+      "tip": "Incarcator frontal",
+      "nume": "IIncarcator frontal cu cupa, capacitate 2 mc",
+      "urls": [ "resources/parc/Incarcator frontal cu cupa, capacitate 2 mc.jpg" ]
+    },
+
     {
       "id": 17,
       "tip": "Incarcator frontal",
@@ -107,13 +137,13 @@
       "id": 18,
       "tip": "Incarcator frontal",
       "nume": "Incarcator frontal Hanomag, capacitate cupa 3,3 mc",
-      "urls": [ "resources/parc/Incarcator frontal - Hanomag 70 E.jpg" ]
+      "urls": [ "resources/parc/Incarcator frontal Hanomag, capacitate cupa 3,3 mc.jpg" ]
     },
     {
       "id": 19,
       "tip": "Incarcator frontal",
       "nume": "Incarcator frontal Liebherr, capacitate cupa 3,5 mc",
-      "urls": [ "resources/parc/Incarcator frontal  - Liebherr L564.jpg" ]
+      "urls": [ "resources/parc/Incarcator frontal Liebherr, capacitate cupa 3,5 mc.jpg" ]
     },
     {
       "id": 20,
@@ -131,13 +161,13 @@
       "id": 22,
       "tip": "Greder",
       "nume": "Motogreder Komatsu, latime de lucru 4,32 m",
-      "urls": [ "resources/parc/Motogreder - Komatsu GD 555-5.jpg" ]
+      "urls": [ "resources/parc/Motogreder Komatsu, latime de lucru 4,32 m.jpg" ]
     },
     {
       "id": 23,
       "tip": "Greder",
       "nume": "Greder Caterpillar, latime de lucru 4,32 m",
-      "urls": [ "resources/parc/Greder - Caterpillar 140  H.jpg" ]
+      "urls": [ "resources/parc/Greder Caterpillar, latime de lucru 4,32 m.jpg" ]
     },
     {
       "id": 24,
@@ -160,7 +190,9 @@
       "urls": [
         "resources/parc/Buldozer - Caterpillar D6M.jpg",
         "resources/parc/Buldozer - Caterpillar D6M LGP.jpg",
-        "resources/parc/Buldozer - Caterpillar D6M XL.jpg"
+        "resources/parc/Buldozer - Caterpillar D6M XL.jpg",
+        "resources/parc/Buldozer Caterpillar, latime de lucru 4 m.jpg"
+
       ]
     },
     {
@@ -179,7 +211,7 @@
       "id": 29,
       "tip": "Cilindru compactor",
       "nume": "Cilindru compactor mixt AMMANN - 15 to",
-      "urls": [ "resources/parc/Cilindru compactor mixt - AMMANN.jpg" ]
+      "urls": [ "resources/parc/Cilindru compactor mixt AMMANN - 15 to.jpg" ]
     },
     {
       "id": 30,
@@ -191,7 +223,7 @@
       "id": 31,
       "tip": "Cilindru compactor",
       "nume": "Cilindru compactor fier Hamm - 9,2 to",
-      "urls": [ "resources/parc/Cilindru compactor Hamm - HD 90.jpg" ]
+      "urls": [ "resources/parc/Cilindru compactor fier Hamm - 9,2 to.jpg" ]
     },
     {
       "id": 32,
@@ -233,7 +265,7 @@
       "id": 38,
       "tip": "Excavator",
       "nume": "Excavator pe roti Liebherr cu picon si cupa de la 0,7 mc pana la 1,3 mc",
-      "urls": [ "resources/parc/Excavator pe pneuri  - Liebherr 904 Litronic.jpg" ]
+      "urls": [ "resources/parc/Excavator pe roti Liebherr cu picon si cupa de la 0,7 mc pana la 1,3 mc.jpg" ]
     },
     {
       "id": 39,
@@ -252,7 +284,7 @@
       "tip": "Excavator",
       "nume": "Excavator pe senile Komatsu cu picon si cupa de la 0,7 mc pana la 1,3 mc",
       "urls": [
-        "resources/parc/Excavator pe senile - Komatsu PC 210-6.jpg",
+        "resources/parc/Excavator pe senile Komatsu cu picon si cupa de la 0,7 mc pana la 1,3 mc.jpg",
         "resources/parc/Excavator pe senile - Komatsu PC 210 LC.jpg"
       ]
     },
@@ -269,6 +301,12 @@
       "urls": [ "resources/parc/Excavator pe senile - Caterpillar 324 D L.jpg" ]
     },
     {
+      "id": 100,
+      "tip": "Excavator",
+      "nume": "Excavator pe senile Caterpillar cu picon si cupa de la 1,4 mc pana la 2 mc",
+      "urls": [ "resources/parc/Excavator pe senile Caterpillar cu picon si cupa de la 1,4 mc pana la 2 mc.jpg" ]
+    },
+    {
       "id": 44,
       "tip": "Freza asfalt",
       "nume": "Freza asfalt, latime de lucru 1 m",
@@ -278,7 +316,7 @@
       "id": 45,
       "tip": "Finisor",
       "nume": "Finisor - latime de lucru 5 m",
-      "urls": [ "resources/parc/Finisor - Vogele Super 1600-2.jpg" ]
+      "urls": [ "resources/parc/Finisor - latime de lucru 5 m.jpg" ]
     },
     {
       "id": 46,
@@ -344,7 +382,7 @@
       "id": 56,
       "tip": "Repartizor agregate",
       "nume": "Repartizor agregate, latime de lucru 2,9 - 3,2 m",
-      "urls": [ "resources/parc/Repartizor agregate - DG 1500.jpg" ]
+      "urls": [ "resources/parc/Repartizor agregate, latime de lucru 2,9 - 3,2 m.jpg" ]
     }
   ]
 }
