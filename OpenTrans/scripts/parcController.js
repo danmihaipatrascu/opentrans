@@ -1,29 +1,30 @@
 ﻿myApp.controller('ParcCtrl', function ($scope, $http, $uibModal, $location, $anchorScroll) {
     $scope.masini = [];
     loadMasini();
-    $scope.tipuri = ['Autobetoniera',
-                    'Autopompa',
-                    'Pompa stationara',
-                    'Autoutilitara',
-                    'Automacara',
-                    'Utilaj multifunctional',
-                    'Utilaj dezapezire',
-                    'Incarcator frontal',
-                    'Stivuitor',
-                    'Greder',
-                    'Buldoexcavator',
-                    'Buldozer',
-                    'Cilindru compactor',
-                    'Excavator',
-                    'Freza asfalt',
-                    'Finisor',
-                    'Foreza',
-                    'Reciclator asfalt',
-                    'Platforma ridicatoare',
-                    'Compresor',
-                    'Concasor piatra',
-                    'Statie sortare',
-                    'Repartizor agregate'];
+    $scope.tipuri = ['Autobetoniere',
+                    'Autopompe',
+                    'Pompe stationare',
+                    'Autoutilitare',
+                    'Utilaje multifunctionale',
+                    'Utilaje dezapezire',
+                    'Excavatoare',
+                    'Buldoexcavatoare',
+                    'Buldozere',
+                    'Gredere',
+                    'Incarcatoare frontale',
+                    'Platforme ridicatoare',
+                    'Automacarale',
+                    'Cilindri compactori',
+                    'Stivuitoare',
+                    'Foreze',
+                    'Finisoare asfalt',
+                    'Freze asfalt',
+                    'Reciclatoare asfalt',
+                    'Repartizoare agregate',
+                    'Statii de sortare',
+                    'Concasoare piatra',
+                    'Compresoare',
+                    ];
 
     function loadMasini() {
         $http.get("resources/masini.json")
@@ -93,7 +94,7 @@
         }
     };
 
-    $scope.myInterval = 5000;
+    $scope.myInterval = 3000;
     $scope.noWrapSlides = false;
     $scope.active = 0;
     var slides = $scope.slides = [];
