@@ -68,19 +68,23 @@
             position: fixed;
             left: 0;
             top: 10%;
+            height: 90%;
+            overflow-x: scroll;
             z-index: 5;
             opacity: 0.85;
         }
 
             .floatingleftmenu ul li input {
+                text-align: right;
                 width: 150px;
-                padding: 7px;
+                padding: 6px;
             }
 
         .panel.panel-default {
         }
+
     </style>
-    <div class="floatingleftmenu">
+    <div class="floatingleftmenu scroll-smecher">
         <ul class="nav nav-pills nav-stacked nav-float">
             <li ng-repeat="tip in tipuri">
                 <input type="button" class="btn btn-default" scroll-on-click href="#{{tip.replace(' ','')}}" value="{{tip}}" />

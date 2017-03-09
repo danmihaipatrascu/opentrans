@@ -169,3 +169,33 @@ nav.am-nav {
 .contact form fieldset {
     border: none;
 }
+
+
+.scroll-smecher {
+    scrollbar-face-color: #367CD2;
+    scrollbar-shadow-color: #EEE;
+    scrollbar-highlight-color: #EEE;
+    scrollbar-3dlight-color: #EEE;
+    scrollbar-darkshadow-color: #EEE;
+    scrollbar-track-color: #EEE;
+    scrollbar-arrow-color: #EEE;
+}
+
+    /* Let's get this party started */
+    .scroll-smecher::-webkit-scrollbar {
+        width: 12px;
+    }
+
+    /* Track */
+    .scroll-smecher::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+    }
+
+    .scroll-smecher::-webkit-scrollbar-thumb {
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        background: rgba(155,155,155,0.8);
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+    }
