@@ -17,7 +17,7 @@
       "id": 2,
       "tip": "Autopompe",
       "nume": "Autopompa beton cu lungimea bratului de 28 m",
-      "urls": [ "resources/parc/actros.jpg" ]
+      "urls": [ "resources/parc/Autopompa beton cu lungimea bratului de 28 m.JPG" ]
     },
     {
       "id": 3,
@@ -98,13 +98,13 @@
       "id": 14,
       "tip": "Automacarale",
       "nume": "Automacara Liebherr capacitate 30 to",
-      "urls": [ "resources/parc/LiebherrMacaraLTM1030.jpg" ]
+      "urls": [ "resources/parc/Automacara Liebherr capacitate 30 to.JPG" ]
     },
     {
       "id": 15,
       "tip": "Automacarale",
       "nume": "Automacara Liebherr capacitate 60 to",
-      "urls": [ "resources/parc/LTM1060-2.jpg" ]
+      "urls": [ "resources/parc/Automacara Liebherr capacitate 60 to.JPG" ]
     },
     {
       "id": 16,
@@ -173,7 +173,7 @@
       "id": 24,
       "tip": "Buldoexcavatoare",
       "nume": "Buldoexcavator Caterpillar cu cupa multifunctionala si picon, capacitate cupa 1,03 mc",
-      "urls": [ "resources/parc/Buldoexcavator - Caterpillar 428F.jpg" ],
+      "urls": [ "resources/parc/Buldoexcavator Caterpillar cu cupa multifunctionala si picon,  capacitate cupa 1,03 mc.JPG" ],
       "font": "sm"
     },
     {
@@ -188,13 +188,27 @@
       "tip": "Buldozere",
       "nume": "Buldozer Caterpillar, latime de lucru 4 m",
       "urls": [
-        "resources/parc/Buldozer - Caterpillar D6M.jpg",
-        "resources/parc/Buldozer - Caterpillar D6M LGP.jpg",
-        "resources/parc/Buldozer - Caterpillar D6M XL.jpg",
-        "resources/parc/Buldozer Caterpillar, latime de lucru 4 m.jpg"
-
+        "resources/parc/Buldozer - Caterpillar D6M.jpg"
       ]
     },
+    {
+      "id": 110,
+      "tip": "Buldozere",
+      "nume": "Buldozer Caterpillar, latime de lucru 4 m",
+      "urls": [
+        "resources/parc/Buldozer Caterpillar, latime de lucru 4 m.JPG"
+      ]
+    },
+
+    {
+      "id": 111,
+      "tip": "Buldozere",
+      "nume": "Buldozer Caterpillar, latime de lucru 4 m",
+      "urls": [
+        "resources/parc/Buldozer Caterpillar, latime de lucru 4 m.jpg"
+      ]
+    },
+
     {
       "id": 27,
       "tip": "Cilindri compactori",
@@ -205,13 +219,13 @@
       "id": 28,
       "tip": "Cilindri compactori",
       "nume": "Cilindru compactor mixt Lebrero - 18 to",
-      "urls": [ "resources/parc/Cilindru compactor mixt - Lebrero.jpg" ]
+      "urls": [ "resources/parc/Cilindru compactor mixt Lebrero - 18 to.JPG" ]
     },
     {
       "id": 29,
       "tip": "Cilindri compactori",
       "nume": "Cilindru compactor mixt AMMANN - 15 to",
-      "urls": [ "resources/parc/Cilindru compactor mixt AMMANN - 15 to.jpg" ]
+      "urls": [ "resources/parc/Cilindru compactor mixt AMMANN - 15 to.JPG" ]
     },
     {
       "id": 30,
@@ -284,8 +298,7 @@
       "tip": "Excavatoare",
       "nume": "Excavator pe senile Komatsu cu picon si cupa de la 0,7 mc pana la 1,3 mc",
       "urls": [
-        "resources/parc/Excavator pe senile Komatsu cu picon si cupa de la 0,7 mc pana la 1,3 mc.jpg",
-        "resources/parc/Excavator pe senile - Komatsu PC 210 LC.jpg"
+        "resources/parc/Excavator pe senile Komatsu cu picon si cupa de la 0,7 mc pana la  1,3 mc1.JPG"
       ]
     },
     {

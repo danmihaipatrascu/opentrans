@@ -8,6 +8,8 @@
             $scope.pozeBeclean = response.data.beclean;
             $scope.pozeTRC = response.data.trc;
             $scope.pozeNovis = response.data.novis;
+            $scope.pozeInstalatiiExterioareTRC = response.data.instalatiiExterioareTRC;
+            
         });
     }
 
@@ -39,6 +41,17 @@
 
             case 'trc':
                 angular.forEach($scope.pozeTRC, function (poza) {
+                    slides.push({
+                        image: poza.urls[0],
+                        text: poza.nume,
+                        id: poza.id - 1
+                    });
+                });
+                return slides;
+                break;
+
+            case 'instalatii_exterioare_trc':
+                angular.forEach($scope.pozeInstalatiiExterioareTRC, function (poza) {
                     slides.push({
                         image: poza.urls[0],
                         text: poza.nume,

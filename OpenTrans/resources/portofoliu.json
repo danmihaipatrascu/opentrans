@@ -125,5 +125,63 @@
       "nume": "Amenajări exterioare - Novis Plaza Cluj",
       "urls": [ "resources/portofoliu/novis/lucrari_novis_3.jpg" ]
     }
+  ],
+  "instalatiiExterioareTRC": [
+    {
+      "id": 1,
+      "nume": "Lucrari instalatii sanitare amenajari exterioare TRC Park Cluj Napoca",
+      "urls": [ "resources/portofoliu/instalatii exterioare trc/lucrari instalatii cluj napoca8.jpg" ]
+    },
+    {
+      "id": 2,
+      "nume": "Lucrari instalatii sanitare amenajari exterioare TRC Park Cluj Napoca",
+      "urls": [ "resources/portofoliu/instalatii exterioare trc/lucrari instalatii cluj napoca1.jpg" ]
+    },
+    {
+      "id": 3,
+      "nume": "Lucrari instalatii sanitare amenajari exterioare TRC Park Cluj Napoca",
+      "urls": [ "resources/portofoliu/instalatii exterioare trc/lucrari instalatii cluj napoca2.jpg" ]
+    },
+        {
+      "id": 4,
+      "nume": "Lucrari instalatii sanitare amenajari exterioare TRC Park Cluj Napoca",
+      "urls": [ "resources/portofoliu/instalatii exterioare trc/lucrari instalatii cluj napoca3.jpg" ]
+    },
+    {
+      "id": 5,
+      "nume": "Lucrari instalatii sanitare amenajari exterioare TRC Park Cluj Napoca",
+      "urls": [ "resources/portofoliu/instalatii exterioare trc/lucrari instalatii cluj napoca4.jpg" ]
+    },
+    {
+      "id": 6,
+      "nume": "Lucrari instalatii sanitare amenajari exterioare TRC Park Cluj Napoca",
+      "urls": [ "resources/portofoliu/instalatii exterioare trc/lucrari instalatii cluj napoca5.jpg" ]
+    },
+        {
+      "id": 7,
+      "nume": "Lucrari instalatii sanitare amenajari exterioare TRC Park Cluj Napoca",
+      "urls": [ "resources/portofoliu/instalatii exterioare trc/lucrari instalatii cluj napoca6.jpg" ]
+    },
+    {
+      "id": 8,
+      "nume": "Lucrari instalatii sanitare amenajari exterioare TRC Park Cluj Napoca",
+      "urls": [ "resources/portofoliu/instalatii exterioare trc/lucrari instalatii cluj napoca7.jpg" ]
+    },
+    {
+      "id": 9,
+      "nume": "Lucrari instalatii sanitare amenajari exterioare TRC Park Cluj Napoca",
+      "urls": [ "resources/portofoliu/instalatii exterioare trc/lucrari instalatii cluj napoca9.jpg" ]
+    },
+        {
+      "id": 10,
+      "nume": "Lucrari instalatii sanitare amenajari exterioare TRC Park Cluj Napoca",
+      "urls": [ "resources/portofoliu/instalatii exterioare trc/lucrari instalatii cluj napoca10.jpg" ]
+    },
+    {
+      "id": 11,
+      "nume": "Lucrari instalatii sanitare amenajari exterioare TRC Park Cluj Napoca",
+      "urls": [ "resources/portofoliu/instalatii exterioare trc/lucrari instalatii cluj napoca11.jpg" ]
+    }
   ]
+
 }
