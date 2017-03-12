@@ -3,15 +3,15 @@
     {
       "id": 104,
       "tip": "Autobetoniere",
-      "nume": "Autobetoniera Renault",
+      "nume": "Autobetoniera capacitate 9 mc",
       "urls": [ "resources/parc/Autobetoniera.jpg" ]
     },
 
     {
       "id": 1,
       "tip": "Autobetoniere",
-      "nume": "Autobetoniera capacitate 9 mc ",
-      "urls": [ "resources/parc/betoniera_iveco.jpg" ]
+      "nume": "Autobetoniera capacitate 9 mc",
+      "urls": [ "resources/parc/Autobetoniera 9 mc.jpg" ]
     },
     {
       "id": 2,
@@ -51,12 +51,6 @@
       "urls": [ "resources/parc/R420LA4X2MNA.jpg" ]
     },
     {
-      "id": 7,
-      "tip": "Autoutilitare",
-      "nume": "Autocamion cu trailer de capacitate 30-40 to",
-      "urls": [ "resources/parc/R420LA4X2MNA.jpg" ]
-    },
-    {
       "id": 8,
       "tip": "Autoutilitare",
       "nume": "Autocamioane 8x4 pentru transport agregate, mixturi asfaltice si lucru in regim de santier",
@@ -73,13 +67,7 @@
       "id": 10,
       "tip": "Autoutilitare",
       "nume": "Autoutilitara cu cisterna pentru transport motorina, capacitate 12000 l",
-      "urls": [ "resources/parc/R420LA4X2MNA.jpg" ]
-    },
-    {
-      "id": 11,
-      "tip": "Autoutilitare",
-      "nume": "Autoutilitara cu cisterna pentru transport apa, capacitate 20000 l",
-      "urls": [ "resources/parc/R420LA4X2MNA.jpg" ]
+      "urls": [ "resources/parc/Autoutilitara cu cisterna pentru transport motorina, capacitate  12000 l.jpg" ]
     },
     {
       "id": 12,
