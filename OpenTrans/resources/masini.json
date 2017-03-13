@@ -6,21 +6,12 @@
       "nume": "Autobetoniera capacitate 9 mc",
       "urls": [ "resources/parc/Autobetoniera.jpg" ]
     },
-
     {
       "id": 1,
       "tip": "Autobetoniere",
       "nume": "Autobetoniera capacitate 9 mc",
       "urls": [ "resources/parc/Autobetoniera 9 mc.jpg" ]
     },
-
-    {
-      "id": 132,
-      "tip": "Autobetoniere",
-      "nume": "Autobetoniera capacitate 9 mc ",
-      "urls": [ "resources/parc/Autobetoniera 9 mc.jpg" ]
-    },
-
     {
       "id": 2,
       "tip": "Autopompe",
@@ -75,12 +66,6 @@
       "id": 10,
       "tip": "Autoutilitare",
       "nume": "Autoutilitara cu cisterna pentru transport motorina, capacitate 12000 l",
-      "urls": [ "resources/parc/Autoutilitara cu cisterna pentru transport motorina, capacitate  12000 l.jpg" ]
-    },
-    {
-      "id": 11,
-      "tip": "Autoutilitare",
-      "nume": "Autoutilitara cu cisterna pentru transport apa, capacitate 20000 l",
       "urls": [ "resources/parc/Autoutilitara cu cisterna pentru transport motorina, capacitate  12000 l.jpg" ]
     },
     {
