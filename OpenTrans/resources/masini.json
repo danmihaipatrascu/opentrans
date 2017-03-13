@@ -35,7 +35,7 @@
       "id": 102,
       "tip": "Autocamioane",
       "nume": "Autocamion pentru transport ciment",
-      "urls": [ "resources/parc/Autoutilitara pentru transport ciment.jpg" ]
+      "urls": [ "resources/parc/Autoutilitara pentru transport ciment.JPG" ]
     },
     {
       "id": 5,
@@ -79,7 +79,7 @@
       "id": 13,
       "tip": "Automacarale",
       "nume": "Automacara Grove capacitate 35 to",
-      "urls": [ "resources/parc/Automacara Grove capacitate 35 to.jpg" ]
+      "urls": [ "resources/parc/Automacara Grove capacitate 35 to.JPG" ]
     },
     {
       "id": 14,
@@ -104,7 +104,7 @@
       "id": 101,
       "tip": "Utilaje dezapezire",
       "nume": "Utilaj de dezapezit",
-      "urls": [ "resources/parc/Utilaj de deszapezit.jpg" ]
+      "urls": [ "resources/parc/Utilaj de deszapezit.JPG" ]
     },
 
     {
@@ -130,7 +130,7 @@
       "id": 19,
       "tip": "Incarcatoare frontale",
       "nume": "Incarcator frontal Liebherr, capacitate cupa 3,5 mc",
-      "urls": [ "resources/parc/Incarcator frontal Liebherr, capacitate cupa 3,5 mc.jpg" ]
+      "urls": [ "resources/parc/Incarcator frontal Liebherr, capacitate cupa 3,5 mc.JPG" ]
     },
     {
       "id": 20,
@@ -183,7 +183,7 @@
       "tip": "Buldozere",
       "nume": "Buldozer Caterpillar, latime de lucru 4 m",
       "urls": [
-        "resources/parc/Buldozer Caterpillar, latime de lucru 4 m.JPG"
+        "resources/parc/Buldozer Caterpillar, latime de lucru 4 m.jpg"
       ]
     },
 
@@ -212,7 +212,7 @@
       "id": 29,
       "tip": "Cilindri compactori",
       "nume": "Cilindru compactor mixt AMMANN - 15 to",
-      "urls": [ "resources/parc/Cilindru compactor mixt AMMANN - 15 to.JPG" ]
+      "urls": [ "resources/parc/Cilindru compactor mixt AMMANN - 15 to.jpg" ]
     },
     {
       "id": 30,
