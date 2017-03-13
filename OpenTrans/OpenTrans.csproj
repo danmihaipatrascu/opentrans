@@ -504,6 +504,9 @@
     <None Include="Properties\PublishProfiles\OpenTrans - Web Deploy.pubxml" />
     <Content Include="resources\logo opentrans.eps" />
     <Content Include="resources\parc\actros.jpg" />
+    <Content Include="resources\parc\Auto raspanditor emulsie.JPG" />
+    <Content Include="resources\parc\Autobasculanta 8x4 pentru transport agregate, mixturi asfaltice si  lucru in regim de santier.JPG" />
+    <Content Include="resources\parc\Autobetoniera 9 mc.jpg" />
     <Content Include="resources\parc\Autobetoniera.jpg" />
     <Content Include="resources\parc\Automacara Grove capacitate 35 to.JPG" />
     <Content Include="resources\parc\Automacara Liebherr capacitate 30 to.JPG" />
@@ -512,6 +515,7 @@
     <Content Include="resources\parc\Autopompa beton cu lungimea bratului de 28 m.JPG" />
     <Content Include="resources\parc\Autoutilitara - Citroen Jumper.jpg" />
     <Content Include="resources\parc\Autoutilitara - Mercedes-Benz.jpg" />
+    <Content Include="resources\parc\Autoutilitara cu cisterna pentru transport motorina, capacitate  12000 l.jpg" />
     <Content Include="resources\parc\Autoutilitara cu macara capacitate 7 to cu remorca proprie.jpg" />
     <Content Include="resources\parc\Autoutilitara pentru transport ciment.JPG" />
     <Content Include="resources\parc\betoniera_iveco.jpg" />
@@ -523,6 +527,8 @@
     <Content Include="resources\parc\Buldozer - Caterpillar D6M XL.jpg" />
     <Content Include="resources\parc\Buldozer - Caterpillar D6M.jpg" />
     <Content Include="resources\parc\Buldozer Caterpillar, latime de lucru 4 m.JPG" />
+    <Content Include="resources\parc\Cap tractor cu platforma pentru transport auto.jpg" />
+    <Content Include="resources\parc\Cap tractor cu semiremorca basculabila de capacitate 24 mc.jpg" />
     <Content Include="resources\parc\Cilindru compactor - Bomag BW 80 AD.jpg" />
     <Content Include="resources\parc\Cilindru compactor - Caterpillar.jpg" />
     <Content Include="resources\parc\Cilindru compactor - Terex TV1200.jpg" />
@@ -538,6 +544,7 @@
     <Content Include="resources\parc\Concasor piatra - Pegson 1100x650.jpg" />
     <Content Include="resources\parc\Excavator pe pneuri  - Liebherr 904 Litronic.jpg" />
     <Content Include="resources\parc\Excavator pe pneuri - Liebherr A 900 B.jpg" />
+    <Content Include="resources\parc\Excavator pe roti Liebherr cu picon si cupa de la 0,7 mc pana la  1,3 mc.JPG" />
     <Content Include="resources\parc\Excavator pe roti Liebherr cu picon si cupa de la 0,7 mc pana la 1,3 mc.jpg" />
     <Content Include="resources\parc\Excavator pe senile - Caterpillar 324 D L.jpg" />
     <Content Include="resources\parc\Excavator pe senile - Caterpillar 325 C L.jpg" />
@@ -565,6 +572,7 @@
     <Content Include="resources\parc\Incarcator frontal cu cupa, capacitate 2 mc.jpg" />
     <Content Include="resources\parc\Incarcator frontal Hanomag, capacitate cupa 3,3 mc.jpg" />
     <Content Include="resources\parc\Incarcator frontal Liebherr, capacitate cupa 3,5 mc.JPG" />
+    <Content Include="resources\parc\Instalatie de forat pana la 25 m cu tubulatura.JPG" />
     <Content Include="resources\parc\Liebherr A900C.jpg" />
     <Content Include="resources\parc\LiebherrMacaraLTM1030.jpg" />
     <Content Include="resources\parc\LTM1060-2.jpg" />
@@ -841,6 +849,7 @@
     <Content Include="resources\poza prezentare utilaje.jpg" />
     <Content Include="resources\Productie si livrare beton 2.jpeg" />
     <Content Include="resources\Productie si livrare beton.jpeg" />
+    <Content Include="resources\retea-apa.jpg" />
     <Content Include="scripts\app.js" />
     <Content Include="scripts\contactController.js" />
     <Content Include="scripts\parcController.js" />

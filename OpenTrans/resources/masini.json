@@ -13,6 +13,14 @@
       "nume": "Autobetoniera capacitate 9 mc",
       "urls": [ "resources/parc/Autobetoniera 9 mc.jpg" ]
     },
+
+    {
+      "id": 132,
+      "tip": "Autobetoniere",
+      "nume": "Autobetoniera capacitate 9 mc ",
+      "urls": [ "resources/parc/Autobetoniera 9 mc.jpg" ]
+    },
+
     {
       "id": 2,
       "tip": "Autopompe",
@@ -42,19 +50,19 @@
       "id": 5,
       "tip": "Autoutilitare",
       "nume": "Autocamion cu semiremorca basculabila de capacitate 24 mc",
-      "urls": [ "resources/parc/R420LA4X2MNA.jpg" ]
+      "urls": [ "resources/parc/Cap tractor cu semiremorca basculabila de capacitate 24 mc.jpg" ]
     },
     {
       "id": 6,
       "tip": "Autoutilitare",
       "nume": "Autocamion cu platforma pentru transport auto",
-      "urls": [ "resources/parc/R420LA4X2MNA.jpg" ]
+      "urls": [ "resources/parc/Cap tractor cu platforma pentru transport auto.jpg" ]
     },
     {
       "id": 8,
       "tip": "Autoutilitare",
       "nume": "Autocamioane 8x4 pentru transport agregate, mixturi asfaltice si lucru in regim de santier",
-      "urls": [ "resources/parc/R420LA4X2MNA.jpg" ],
+      "urls": [ "resources/parc/Autobasculanta 8x4 pentru transport agregate, mixturi asfaltice si  lucru in regim de santier.JPG" ],
       "font": "sm"
     },
     {
@@ -70,10 +78,16 @@
       "urls": [ "resources/parc/Autoutilitara cu cisterna pentru transport motorina, capacitate  12000 l.jpg" ]
     },
     {
+      "id": 11,
+      "tip": "Autoutilitare",
+      "nume": "Autoutilitara cu cisterna pentru transport apa, capacitate 20000 l",
+      "urls": [ "resources/parc/Autoutilitara cu cisterna pentru transport motorina, capacitate  12000 l.jpg" ]
+    },
+    {
       "id": 12,
       "tip": "Autoutilitare",
       "nume": "Autoraspanditor emulsie pentru lucrari de asfaltare, amorsare",
-      "urls": [ "resources/parc/R420LA4X2MNA.jpg" ]
+      "urls": [ "resources/parc/Auto raspanditor emulsie.JPG" ]
     },
 
     {
@@ -279,7 +293,7 @@
       "id": 40,
       "tip": "Excavatoare",
       "nume": "Excavator pe roti Liebherr cu picon si cupa de la 0,7 mc pana la 1,3 mc",
-      "urls": [ "resources/parc/Liebherr A900C.jpg" ]
+      "urls": [ "resources/parc/Excavator pe roti Liebherr cu picon si cupa de la 0,7 mc pana la  1,3 mc.JPG" ]
     },
     {
       "id": 41,
@@ -329,7 +343,7 @@
       "id": 47,
       "tip": "Foreze",
       "nume": "Instalatie de forat pana la 25 m cu tubulatura",
-      "urls": [ "resources/parc/Foreza - Wirth Ecodril 18_2.jpg" ]
+      "urls": [ "resources/parc/Instalatie de forat pana la 25 m cu tubulatura.JPG" ]
     },
     {
       "id": 48,
