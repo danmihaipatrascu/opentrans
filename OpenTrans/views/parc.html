@@ -78,13 +78,12 @@
                 text-align: right;
                 width: 150px;
                 padding: 4px;
-                text-align:right;
+                text-align: right;
                 padding: 6px;
             }
 
         .panel.panel-default {
         }
-
     </style>
     <div class="floatingleftmenu scroll-smecher">
         <ul class="nav nav-pills nav-stacked nav-float">
@@ -116,7 +115,7 @@
                             <div class="masina-container">
                                 <div uib-carousel active="active" interval="myInterval" on-carousel-change="onSlideChanged(nextSlide, direction, {{$index}})">
                                     <div uib-slide ng-repeat="slide in cat.masini track by slide.id" index="slide.id">
-                                        <img class="img-responsive" ng-src="{{slide.url}}" style="margin:auto;" alt="{{slide.nume}}">
+                                        <img class="img-responsive" ng-src="{{slide.url}}" style="margin:auto;" alt="{{slide.nume}}" ng-click="openSlider(cat, slide.id)">
                                         <div class="carousel-caption">
                                             <p>{{slide.nume}}</p>
                                         </div>

@@ -5,6 +5,7 @@
                     'Autopompe',
                     'Pompe stationare',
                     'Autoutilitare',
+                    'Autocamioane',
                     'Utilaje multifunctionale',
                     'Utilaje dezapezire',
                     'Excavatoare',
@@ -24,7 +25,7 @@
                     'Statii de sortare',
                     'Concasoare piatra',
                     'Compresoare',
-                    ];
+    ];
 
     function loadMasini() {
         $http.get("resources/masini.json")
@@ -99,6 +100,34 @@
     $scope.active = 0;
     var slides = $scope.slides = [];
     var currIndex = 0;
+
+    $scope.openSlider = function (categorie, id) {
+        $uibModal.open({
+            templateUrl: "/views/modals/sliderModal.html",
+            size: 'lg',
+            controller: [
+              "$scope",
+                function ($scope) {
+                    $scope.slides = [];
+                    var slideId = 0;
+                    $scope.active = 0;
+                    angular.forEach(categorie.masini, function (slide) {
+                        if (id == slide.id)
+                            $scope.active = slideId;
+                        $scope.slides.push({
+                            image: slide.url,
+                            text: slide.nume,
+                            id: slideId++
+                        });
+                    });
+
+                    $scope.myInterval = 5000;
+                    $scope.noWrapSlides = false;
+                    var currIndex = 0;
+                }
+            ]
+        });
+    };
 })
 .directive('onCarouselChange', function ($parse) {
     return {

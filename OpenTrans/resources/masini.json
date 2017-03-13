@@ -33,13 +33,13 @@
 
     {
       "id": 102,
-      "tip": "Autoutilitare",
-      "nume": "Autoutilitara pentru transport ciment",
+      "tip": "Autocamioane",
+      "nume": "Autocamion pentru transport ciment",
       "urls": [ "resources/parc/Autoutilitara pentru transport ciment.jpg" ]
     },
     {
       "id": 5,
-      "tip": "Autoutilitare",
+      "tip": "Autocamioane",
       "nume": "Autocamion cu semiremorca basculabila de capacitate 24 mc",
       "urls": [ "resources/parc/Cap tractor cu semiremorca basculabila de capacitate 24 mc.jpg" ]
     },
@@ -51,7 +51,7 @@
     },
     {
       "id": 8,
-      "tip": "Autoutilitare",
+      "tip": "Autocamioane",
       "nume": "Autocamioane 8x4 pentru transport agregate, mixturi asfaltice si lucru in regim de santier",
       "urls": [ "resources/parc/Autobasculanta 8x4 pentru transport agregate, mixturi asfaltice si  lucru in regim de santier.JPG" ],
       "font": "sm"
