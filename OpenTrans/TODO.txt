@@ -10,8 +10,8 @@ Style:
 -> !!!  make portfoliu slider responsive !!!!
 
 SEO:
-alt text  for all photos DONE
 !!!!! redirect links from old site
+Sitemap.xml
 (vezi lista)...TODO
 
 Functionality:
