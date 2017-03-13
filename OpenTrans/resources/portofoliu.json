@@ -8,35 +8,30 @@
     {
       "id": 2,
       "nume": "Amenajare alei în incintă și trotuare - Campus Școlar Petru Rareș Beclean",
-      "urls": [ "resources/portofoliu/beclean/amenajari_beclean_2.jpg" ]
+      "urls": [ "resources/portofoliu/beclean/amenajari_beclean_3.jpg" ]
     },
     {
       "id": 3,
       "nume": "Amenajare alei în incintă și trotuare - Campus Școlar Petru Rareș Beclean",
-      "urls": [ "resources/portofoliu/beclean/amenajari_beclean_3.jpg" ]
+      "urls": [ "resources/portofoliu/beclean/amenajari_beclean_4.jpg" ]
     },
     {
       "id": 4,
       "nume": "Amenajare alei în incintă și trotuare - Campus Școlar Petru Rareș Beclean",
-      "urls": [ "resources/portofoliu/beclean/amenajari_beclean_4.jpg" ]
+      "urls": [ "resources/portofoliu/beclean/amenajari_beclean_5.jpg" ]
     },
     {
       "id": 5,
       "nume": "Amenajare alei în incintă și trotuare - Campus Școlar Petru Rareș Beclean",
-      "urls": [ "resources/portofoliu/beclean/amenajari_beclean_5.jpg" ]
+      "urls": [ "resources/portofoliu/beclean/amenajari_beclean_6.jpg" ]
     },
     {
       "id": 6,
       "nume": "Amenajare alei în incintă și trotuare - Campus Școlar Petru Rareș Beclean",
-      "urls": [ "resources/portofoliu/beclean/amenajari_beclean_6.jpg" ]
-    },
-    {
-      "id": 7,
-      "nume": "Amenajare alei în incintă și trotuare - Campus Școlar Petru Rareș Beclean",
       "urls": [ "resources/portofoliu/beclean/amenajari_beclean_7.jpg" ]
     },
     {
-      "id": 8,
+      "id": 7,
       "nume": "Amenajare alei în incintă și trotuare - Campus Școlar Petru Rareș Beclean",
       "urls": [ "resources/portofoliu/beclean/amenajari_beclean_8.jpg" ]
     }
@@ -142,7 +137,7 @@
       "nume": "Lucrari instalatii sanitare amenajari exterioare TRC Park Cluj Napoca",
       "urls": [ "resources/portofoliu/instalatii exterioare trc/lucrari instalatii cluj napoca2.jpg" ]
     },
-        {
+    {
       "id": 4,
       "nume": "Lucrari instalatii sanitare amenajari exterioare TRC Park Cluj Napoca",
       "urls": [ "resources/portofoliu/instalatii exterioare trc/lucrari instalatii cluj napoca3.jpg" ]
@@ -157,7 +152,7 @@
       "nume": "Lucrari instalatii sanitare amenajari exterioare TRC Park Cluj Napoca",
       "urls": [ "resources/portofoliu/instalatii exterioare trc/lucrari instalatii cluj napoca5.jpg" ]
     },
-        {
+    {
       "id": 7,
       "nume": "Lucrari instalatii sanitare amenajari exterioare TRC Park Cluj Napoca",
       "urls": [ "resources/portofoliu/instalatii exterioare trc/lucrari instalatii cluj napoca6.jpg" ]
@@ -172,7 +167,7 @@
       "nume": "Lucrari instalatii sanitare amenajari exterioare TRC Park Cluj Napoca",
       "urls": [ "resources/portofoliu/instalatii exterioare trc/lucrari instalatii cluj napoca9.jpg" ]
     },
-        {
+    {
       "id": 10,
       "nume": "Lucrari instalatii sanitare amenajari exterioare TRC Park Cluj Napoca",
       "urls": [ "resources/portofoliu/instalatii exterioare trc/lucrari instalatii cluj napoca10.jpg" ]

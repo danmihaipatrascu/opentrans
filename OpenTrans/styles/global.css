@@ -158,17 +158,26 @@ nav.am-nav {
     margin-top: 10px;
 }
 
-.contact .adresa .departamente {
-    font-size: 1.2em;
+.contact {
+    position: absolute;
+    z-index: 6;
+    background-color: #272b30;
+    width: 100%;
+    left: 0;
+    padding: 0 50px 50px 50px;
 }
 
-.contact li {
-    padding-top: 7px;
-}
+    .contact .adresa .departamente {
+        font-size: 1.2em;
+    }
 
-.contact form fieldset {
-    border: none;
-}
+    .contact li {
+        padding-top: 7px;
+    }
+
+    .contact form fieldset {
+        border: none;
+    }
 
 
 .scroll-smecher {
