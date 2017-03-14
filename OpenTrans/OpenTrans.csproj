@@ -489,7 +489,7 @@
     <Content Include="resources\constructii civile industriale si agricole.jpg" />
     <Content Include="resources\diapo_date2.jpg" />
     <Content Include="resources\drumuri si poduri.gif" />
-    <Content Include="resources\favicon.ico" />
+    <Content Include="resources\favicon.gif" />
     <Content Include="resources\Inchiriere utilaje 1.gif" />
     <Content Include="resources\Inchiriere utilaje 2.jpeg" />
     <Content Include="resources\laborator de incercari.jpeg" />
@@ -502,6 +502,7 @@
     <Content Include="node_modules\angular-ui-router\LICENSE" />
     <Content Include="node_modules\angular-ui-router\package.json" />
     <Content Include="node_modules\angular-ui-router\README.md" />
+    <Content Include=".htaccess" />
     <None Include="Properties\PublishProfiles\OpenTrans - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\OpenTrans - Web Deploy.pubxml" />
     <Content Include="resources\logo opentrans.eps" />
