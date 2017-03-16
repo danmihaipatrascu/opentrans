@@ -15,3 +15,13 @@ Sitemap.xml
 (vezi lista)...TODO
 
 Functionality:
+
+
+mobile - meniu toggle
+home-poza inchirieri
+home-meniu width
+inchirieri=poze cu utilaje cu numar inmatriculare
+inchirieri utilaje - panel size mai mare sa nu mai sara sus-jos
+cilindri-resize poze
+diacritice-fara
+contact-sa se faca scroll-ul cum trebuie

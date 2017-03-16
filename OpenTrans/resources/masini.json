@@ -95,15 +95,15 @@
     },
     {
       "id": 16,
-      "tip": "Utilaje multifunctionale",
+      "tip": "Utilaje deszapezire",
       "nume": "Utilaj multifunctional Unimog cu lama, sararita si perie",
       "urls": [ "resources/parc/sararita.jpg" ]
     },
 
     {
       "id": 101,
-      "tip": "Utilaje dezapezire",
-      "nume": "Utilaj de dezapezit",
+      "tip": "Utilaje deszapezire",
+      "nume": "Utilaj de deszapezit",
       "urls": [ "resources/parc/Utilaj de deszapezit.JPG" ]
     },
 
@@ -123,13 +123,13 @@
     {
       "id": 18,
       "tip": "Incarcatoare frontale",
-      "nume": "Incarcator frontal Hanomag, capacitate cupa 3,3 mc",
+      "nume": "Incarcator frontal Hanomag, capacitate cupa 4,5 mc",
       "urls": [ "resources/parc/Incarcator frontal Hanomag, capacitate cupa 3,3 mc.jpg" ]
     },
     {
       "id": 19,
       "tip": "Incarcatoare frontale",
-      "nume": "Incarcator frontal Liebherr, capacitate cupa 3,5 mc",
+      "nume": "Incarcator frontal Liebherr, capacitate cupa 4,5 mc",
       "urls": [ "resources/parc/Incarcator frontal Liebherr, capacitate cupa 3,5 mc.JPG" ]
     },
     {
@@ -223,13 +223,13 @@
     {
       "id": 31,
       "tip": "Cilindri compactori",
-      "nume": "Cilindru compactor fier Hamm - 9,2 to",
+      "nume": "Cilindru compactor fier Hamm - 10 to",
       "urls": [ "resources/parc/Cilindru compactor fier Hamm - 9,2 to.jpg" ]
     },
     {
       "id": 32,
       "tip": "Cilindri compactori",
-      "nume": "Cilindru compactor fier Hamm - 10,53 to",
+      "nume": "Cilindru compactor fier Hamm - 11 to",
       "urls": [ "resources/parc/Cilindru compactor Hamm - HD 110.jpg" ]
     },
     {
@@ -333,7 +333,7 @@
     {
       "id": 48,
       "tip": "Reciclatoare asfalt",
-      "nume": "Reciclator asfalt 700 kg/h",
+      "nume": "Reciclator asfalt 7 to/h",
       "urls": [ "resources/parc/Reciclator asfalt - BAGELA BA7000F.jpg" ]
     },
     {
