@@ -9,7 +9,7 @@
 <body>
     <div id="home">
         <style type="text/css">
-            @media (max-width:1200px) {
+            @media (max-width:1300px) {
                 #home .floatingmenu {
                     display: none;
                 }
@@ -28,10 +28,62 @@
                     text-align: right;
                     width: 190px;
                     padding: 4px;
-                    text-align: right;
-                    padding: 6px;
                     margin-left: 5px;
                 }
+                
+            @media (min-width:1300px) {
+                #home .floatingmenu ul li button {
+                    font-size: 13px;
+                    width: 130px;
+                }
+            }
+                
+            @media (min-width:1400px) {
+                #home .floatingmenu ul li button {
+                    font-size: 13px;
+                    width: 140px;
+                }
+            }
+                
+            @media (min-width:1500px) {
+                #home .floatingmenu ul li button {
+                    font-size: 14px;
+                    width: 150px;
+                }
+            }
+                
+            @media (min-width:1600px) {
+                #home .floatingmenu ul li button {
+                    font-size: 15px;
+                    width: 160px;
+                }
+            }
+            @media (min-width:1720px) {
+                #home .floatingmenu ul li button {
+                    font-size: 15px;
+                    width: 160px;
+                }
+            }
+            @media (min-width:1750px) {
+                #home .floatingmenu ul li button {
+                    font-size: 15px;
+                    width: 180px;
+                }
+            }
+                
+            @media (min-width:1850px) {
+                #home .floatingmenu ul li button {
+                    font-size: 16px;
+                    width: 190px;
+                }
+            }
+
+
+            @media (min-width:1750px) {
+                #home .floatingmenu .break{
+                    display: none;
+                }
+            }
         </style>
         <div class="floatingmenu">
             <ul class="nav nav-pills nav-stacked nav-float">
@@ -39,7 +91,7 @@
                     <button class="btn btn-default">Inchirieri utilaje</button>
                 </li>
                 <li ng-click="goToPage('root.inchiriereutilaje')">
-                    <button class="btn btn-default">Productie si livrare beton</button>
+                    <button class="btn btn-default">Productie si livrare<br class="break"/> beton</button>
                 </li>
                 <li ng-click="goToPage('root.portofoliu')">
                     <button class="btn btn-default">Executie lucrari de<br />drumuri si poduri</button>
@@ -59,7 +111,7 @@
             <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12">
                 <div class="row">
                     <div class="cover"
-                         style="background-image:url('./resources/poza prezentare utilaje.jpg');"
+                         style="background-image:url('./resources/poza prezentare utilaje.jpg'); background-position: center;"
                          ng-class="{hovered: hoverEdit3, 'not-hovered': hoverEdit4}"
                          ng-mouseover="hoverEdit3 = true" ng-mouseleave="hoverEdit3 = false"
                          ng-click="goToPage('root.inchiriereutilaje')">
