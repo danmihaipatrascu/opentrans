@@ -9,11 +9,9 @@ myApp.config(function ($stateProvider, $urlRouterProvider) {
 
    // set route for the contact page
         .state('root', {
-            url: '',
-            abstract: true,
+            url: '/opentrans',
             views: {
                 'contact': {
-                    url: '/contact',
                     templateUrl: 'views/contact.html'
                 }
             }
@@ -65,7 +63,7 @@ myApp.config(function ($stateProvider, $urlRouterProvider) {
     // if not match with any route config then send to home page
 
 
-    $urlRouterProvider.otherwise('/paginaprincipala');
+    $urlRouterProvider.otherwise('/opentrans/paginaprincipala');
 })
 .run(function ($rootScope, $state, $stateParams) {
     $rootScope.$state = $state;
