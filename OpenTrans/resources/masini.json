@@ -41,11 +41,11 @@
       "id": 5,
       "tip": "Autocamioane",
       "nume": "Autocamion cu semiremorca basculabila de capacitate 24 mc",
-      "urls": [ "resources/parc/Cap tractor cu semiremorca basculabila de capacitate 24 mc.jpg" ]
+      "urls": [ "resources/parc/Cap tractor cu semiremorca basculabila capacitate 24 mc.jpg" ]
     },
     {
       "id": 6,
-      "tip": "Autoutilitare",
+      "tip": "Autocamioane",
       "nume": "Autocamion cu platforma pentru transport auto",
       "urls": [ "resources/parc/Cap tractor cu platforma pentru transport auto.jpg" ]
     },
@@ -110,14 +110,14 @@
     {
       "id": 103,
       "tip": "Incarcatoare frontale",
-      "nume": "IIncarcator frontal cu cupa, capacitate 2 mc",
+      "nume": "Incarcator frontal cu cupa, capacitate 2 mc",
       "urls": [ "resources/parc/Incarcator frontal cu cupa, capacitate 2 mc.jpg" ]
     },
 
     {
       "id": 17,
       "tip": "Incarcatoare frontale",
-      "nume": "Incarcator frontal Fiatallis, capacitate cupa 3 mc",
+      "nume": "Incarcator frontal Fiat Allis, capacitate cupa 3 mc",
       "urls": [ "resources/parc/Incarcator frontal - FIATALLIS FR 15.jpg" ]
     },
     {
@@ -199,85 +199,85 @@
     {
       "id": 27,
       "tip": "Cilindri compactori",
-      "nume": "Cilindru compactor Caterpillar guma - guma - 21 to",
+      "nume": "Cilindru compactor Caterpillar - 21 to",
       "urls": [ "resources/parc/Cilindru compactor - Caterpillar.jpg" ]
     },
     {
       "id": 28,
       "tip": "Cilindri compactori",
-      "nume": "Cilindru compactor mixt Lebrero - 18 to",
+      "nume": "Cilindru compactor Lebrero - 18 to",
       "urls": [ "resources/parc/Cilindru compactor mixt Lebrero - 18 to.JPG" ]
     },
     {
       "id": 29,
       "tip": "Cilindri compactori",
-      "nume": "Cilindru compactor mixt AMMANN - 15 to",
+      "nume": "Cilindru compactor AMMANN - 15 to",
       "urls": [ "resources/parc/Cilindru compactor mixt AMMANN - 15 to.jpg" ]
     },
     {
       "id": 30,
       "tip": "Cilindri compactori",
-      "nume": "Cilindru compactor mixt Bomag - 4,3 to",
+      "nume": "Cilindru compactor Bomag - 4,3 to",
       "urls": [ "resources/parc/Cilindru compactor mixt - Bomag BW 138 AC.jpg" ]
     },
     {
       "id": 31,
       "tip": "Cilindri compactori",
-      "nume": "Cilindru compactor fier Hamm - 10 to",
+      "nume": "Cilindru compactor Hamm - 10 to",
       "urls": [ "resources/parc/Cilindru compactor fier Hamm - 9,2 to.jpg" ]
     },
     {
       "id": 32,
       "tip": "Cilindri compactori",
-      "nume": "Cilindru compactor fier Hamm - 11 to",
+      "nume": "Cilindru compactor Hamm - 11 to",
       "urls": [ "resources/parc/Cilindru compactor Hamm - HD 110.jpg" ]
     },
     {
       "id": 33,
       "tip": "Cilindri compactori",
-      "nume": "Cilindru compactor fier Bomag - 1,5 to",
+      "nume": "Cilindru compactor Bomag - 1,5 to",
       "urls": [ "resources/parc/Cilindru compactor - Bomag BW 80 AD.jpg" ]
     },
     {
       "id": 34,
       "tip": "Cilindri compactori",
-      "nume": "Cilindru compactor fier Bomag - 2,3 to",
+      "nume": "Cilindru compactor Bomag - 2,3 to",
       "urls": [ "resources/parc/Bomag BW120AD-4.jpg" ]
     },
     {
       "id": 35,
       "tip": "Cilindri compactori",
-      "nume": "Cilindru compactor fier Hamm - 3,2 to",
+      "nume": "Cilindru compactor Hamm - 3,2 to",
       "urls": [ "resources/parc/Hamm HD12VV.jpg" ]
     },
     {
       "id": 36,
       "tip": "Cilindri compactori",
-      "nume": "Cilindru compactor fier Hamm - 3,1 to",
+      "nume": "Cilindru compactor Hamm - 3,1 to",
       "urls": [ "resources/parc/Hamm HD12.jpg" ]
     },
     {
       "id": 37,
       "tip": "Cilindri compactori",
-      "nume": "Compactor manual fier Bomag - 715 kg",
+      "nume": "Compactor manual Bomag - 715 kg",
       "urls": [ "resources/parc/Cilindru compactor manual - Bomag BW 65 HS.jpg" ]
     },
     {
       "id": 38,
       "tip": "Excavatoare",
-      "nume": "Excavator pe roti Liebherr cu picon si cupa de la 0,7 mc pana la 1,3 mc",
+      "nume": "Excavator pe pneuri Liebherr cu picon si cupa de la 0,7 mc pana la 1,3 mc",
       "urls": [ "resources/parc/Excavator pe roti Liebherr cu picon si cupa de la 0,7 mc pana la 1,3 mc.jpg" ]
     },
     {
       "id": 39,
       "tip": "Excavatoare",
-      "nume": "Excavator pe roti Liebherr cu picon si cupa de la 0,7 mc pana la 1,3 mc",
+      "nume": "Excavator pe pneuri Liebherr cu picon si cupa de la 0,7 mc pana la 1,3 mc",
       "urls": [ "resources/parc/Excavator pe pneuri - Liebherr A 900 B.jpg" ]
     },
     {
       "id": 40,
       "tip": "Excavatoare",
-      "nume": "Excavator pe roti Liebherr cu picon si cupa de la 0,7 mc pana la 1,3 mc",
+      "nume": "Excavator pe pneuri Liebherr cu picon si cupa de la 0,7 mc pana la 1,3 mc",
       "urls": [ "resources/parc/Excavator pe roti Liebherr cu picon si cupa de la 0,7 mc pana la  1,3 mc.JPG" ]
     },
     {
