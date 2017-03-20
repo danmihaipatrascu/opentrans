@@ -7,6 +7,28 @@
 
 <body>
     <div class="container">
+        <style>
+            @media (max-width:1200px) {
+                .video {
+                    height: 200px;
+                    width: 300px;
+                }
+                .container
+                {
+                    padding-left:3px;
+                    padding-right:3px;
+                }
+
+           .lista-lucrari{padding-left:10px}
+            }
+
+            @media (min-width:1200px) {
+                .video {
+                    height: 315px;
+                    width: 560px;
+                }
+            }
+        </style>
         <h2>Portofoliu lucrari</h2>
         <div class="panel-group" id="accordion">
             <div class="panel panel-default">
@@ -17,7 +39,7 @@
                 </div>
                 <div id="drumuriPoduri" class="panel-collapse collapse in ">
                     <div class="panel-body">
-                        <ul style="list-style-type:circle">
+                        <ul style="list-style-type:circle" class="lista-lucrari">
                             <li style="padding-bottom:5px">
                                 <a ng-click="openSlider('trc')"><h4> Modernizare drumuri si platforme - Transilvania C-tii SA</h4></a><!--<sub style="color:deepskyblue"> [vezi imagini]</sub>-->
                             </li>
@@ -41,12 +63,12 @@
         <div class="panel panel-default">
             <div class="panel-heading">
                 <h3 class="panel-title">
-                   <span style="font-size:20px"><b>Amenajari exterioare</b></span>
+                    <span style="font-size:20px"><b>Amenajari exterioare</b></span>
                 </h3>
             </div>
             <div id="amenajariExterioare" class="panel-collapse collapse in">
                 <div class="panel-body">
-                    <ul style="list-style-type:circle">
+                    <ul style="list-style-type:circle" class="lista-lucrari">
                         <li style="padding-bottom:5px">
                             <a ng-click="openSlider('novis')"> <h4>Amenajari exterioare - Novis Plaza Cluj <sub style="color:deepskyblue"> [vezi imagini]</sub></h4></a>
                         </li>
@@ -72,12 +94,12 @@
         <div class="panel panel-default">
             <div class="panel-heading">
                 <h3 class="panel-title">
-                  <span style="font-size:20px"><b>Constructii civile, industriale si agricole</b></span>
+                    <span style="font-size:20px"><b>Constructii civile, industriale si agricole</b></span>
                 </h3>
             </div>
             <div id="constructiiCivile" class="panel-collapse collapse in">
                 <div class="panel-body">
-                    <ul style="list-style-type:circle">
+                    <ul style="list-style-type:circle" class="lista-lucrari">
                         <li style="padding-bottom:5px">
                             <a><h4>Executie copertina metalica pentru control acces - Aeroportul International Avram Iancu Cluj R.A</h4></a>
                         </li>
@@ -109,7 +131,7 @@
             </div>
             <div id="instalatii" class="panel-collapse collapse in">
                 <div class="panel-body">
-                    <ul style="list-style-type:circle">
+                    <ul style="list-style-type:circle" class="lista-lucrari">
                         <li style="padding-bottom:5px">
                             <a ng-click="openSlider('instalatii_exterioare_trc')"><h4>Lucrari instalatii sanitare amenajari exterioare TRC Park CLUJ. <sub style="color:deepskyblue">[vezi imagini]</sub></h4></a>
                         </li>
@@ -126,9 +148,8 @@
     </div>
 
     <div style="text-align:center">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/mChMrg1vgxI" frameborder="0" allowfullscreen></iframe>
+        <iframe class="video" src="https://www.youtube.com/embed/mChMrg1vgxI" frameborder="0" allowfullscreen></iframe>
     </div>
 </body>
 
 </html>
-
