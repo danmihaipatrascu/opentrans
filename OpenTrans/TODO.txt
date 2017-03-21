@@ -1,22 +1,17 @@
 ﻿TODO: 
 Font-ul de pe Contact=>Adresa+Webstire+FB mai mici(ca si restul de la departamente)
-Facebook link: ceva mai sugestiv;
-Inchirieri utilaje page nu apare bine pe mobile(descrierea utilajului e in afara containerului) DONE
 
 Style:
--> increase font size on small devices
 -> links for home
 -> links on contact with all categorii utilaje: #/inchiriereutilaje#betoniera
--> !!!  make portfoliu slider responsive !!!!
 
 SEO:
 !!!!! redirect links from old site
 Sitemap.xml
+Inject title on all pages
 (vezi lista)...TODO
 
 Functionality:
-
-
 mobile - meniu toggle
 home-poza inchirieri
 home-meniu width
