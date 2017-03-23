@@ -7,7 +7,12 @@ Style:
 -> contact page: remove margins for mobile, decreease font size -mobile
 
 SEO:
-!!!!! redirect links from old site
+Google nu vede decat pagina principala din site: pentru a remedia asta vezi : 
+http://wijmo.com/blog/how-to-improve-seo-in-angularjs-applications/
+http://stackoverflow.com/questions/40009479/google-not-crawling-links-in-angularjs-application
+http://stackoverflow.com/questions/24446065/google-bot-crawling-on-angularjs-site-with-html5-mode-routes
+(chnage ng-click to href , elimina # din link etc)
+
 Sitemap.xml
 Inject title on all pages
 (vezi lista)...TODO
