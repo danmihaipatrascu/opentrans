@@ -9,6 +9,7 @@
             $scope.pozeTRC = response.data.trc;
             $scope.pozeNovis = response.data.novis;
             $scope.pozeInstalatiiExterioareTRC = response.data.instalatiiExterioareTRC;
+            $scope.margau = response.data.margau;
             
         });
     }
@@ -52,6 +53,17 @@
 
             case 'instalatii_exterioare_trc':
                 angular.forEach($scope.pozeInstalatiiExterioareTRC, function (poza) {
+                    slides.push({
+                        image: poza.urls[0],
+                        text: poza.nume,
+                        id: poza.id - 1
+                    });
+                });
+                return slides;
+                break;
+
+            case 'margau':
+                angular.forEach($scope.margau, function (poza) {
                     slides.push({
                         image: poza.urls[0],
                         text: poza.nume,

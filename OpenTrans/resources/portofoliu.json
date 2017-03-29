@@ -147,6 +147,39 @@
       "nume": "Lucrari instalatii sanitare amenajari exterioare TRC Park Cluj Napoca",
       "urls": [ "resources/portofoliu/instalatii exterioare trc/lucrari instalatii cluj napoca11.jpg" ]
     }
+  ],
+
+  "margau": [
+    {
+      "id": 1,
+      "nume": "Realizare drumuri forestiere in comuna Margau",
+      "urls": [ "resources/portofoliu/margau/Realizare drumuri forestiere in comuna Margau.JPG" ]
+    },
+    {
+      "id": 2,
+      "nume": "Realizare drumuri forestiere in comuna Margau",
+      "urls": [ "resources/portofoliu/margau/Realizare drumuri forestiere in comuna Margau1.JPG" ]
+    },
+    {
+      "id": 3,
+      "nume": "Realizare drumuri forestiere in comuna Margau",
+      "urls": [ "resources/portofoliu/margau/Realizare drumuri forestiere in comuna Margau2.JPG" ]
+    },
+    {
+      "id": 4,
+      "nume": "Realizare drumuri forestiere in comuna Margau",
+      "urls": [ "resources/portofoliu/margau/Realizare drumuri forestiere in comuna Margau3.JPG" ]
+    },
+    {
+      "id": 5,
+      "nume": "Realizare drumuri forestiere in comuna Margau",
+      "urls": [ "resources/portofoliu/margau/Realizare drumuri forestiere in comuna Margau4.JPG" ]
+    },
+    {
+      "id": 6,
+      "nume": "Realizare drumuri forestiere in comuna Margau",
+      "urls": [ "resources/portofoliu/margau/Realizare drumuri forestiere in comuna Margau5.JPG" ]
+    }
   ]
 
 }
