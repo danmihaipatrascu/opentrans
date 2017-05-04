@@ -843,6 +843,16 @@
     <Content Include="node_modules\jquery\src\wrap.js" />
     <Content Include="resources\logo.gif" />
     <Content Include="resources\logo.svg" />
+    <Content Include="resources\portofoliu\baza tehnica auto\Construire bază tehnică auto Corp 2 și Corp 3 1.jpg" />
+    <Content Include="resources\portofoliu\baza tehnica auto\Construire bază tehnică auto Corp 2 și Corp 3 10.jpg" />
+    <Content Include="resources\portofoliu\baza tehnica auto\Construire bază tehnică auto Corp 2 și Corp 3 11.jpg" />
+    <Content Include="resources\portofoliu\baza tehnica auto\Construire bază tehnică auto Corp 2 și Corp 3 12.jpg" />
+    <Content Include="resources\portofoliu\baza tehnica auto\Construire bază tehnică auto Corp 2 și Corp 3 13.jpg" />
+    <Content Include="resources\portofoliu\baza tehnica auto\Construire bază tehnică auto Corp 2 și Corp 3 5.jpg" />
+    <Content Include="resources\portofoliu\baza tehnica auto\Construire bază tehnică auto Corp 2 și Corp 3 6.jpg" />
+    <Content Include="resources\portofoliu\baza tehnica auto\Construire bază tehnică auto Corp 2 și Corp 3 7.jpg" />
+    <Content Include="resources\portofoliu\baza tehnica auto\Construire bază tehnică auto Corp 2 și Corp 3 8.jpg" />
+    <Content Include="resources\portofoliu\baza tehnica auto\Construire bază tehnică auto Corp 2 și Corp 3 9.jpg" />
     <Content Include="resources\portofoliu\beclean\amenajari_beclean_1.jpg" />
     <Content Include="resources\portofoliu\beclean\amenajari_beclean_2.jpg" />
     <Content Include="resources\portofoliu\beclean\amenajari_beclean_3.jpg" />

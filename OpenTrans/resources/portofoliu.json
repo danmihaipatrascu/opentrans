@@ -180,6 +180,61 @@
       "nume": "Realizare drumuri forestiere in comuna Margau",
       "urls": [ "resources/portofoliu/margau/Realizare drumuri forestiere in comuna Margau5.JPG" ]
     }
+  ],
+
+
+  "bazaTehnica": [
+
+    {
+      "id": 1,
+      "nume": "Construire bază tehnică auto Corp 2 și Corp 3",
+      "urls": [ "resources/portofoliu/baza tehnica auto/Construire bază tehnică auto Corp 2 și Corp 3 1.jpg" ]
+    },
+    {
+      "id": 2,
+      "nume": "Construire bază tehnică auto Corp 2 și Corp 3",
+      "urls": [ "resources/portofoliu/baza tehnica auto/Construire bază tehnică auto Corp 2 și Corp 3 6.jpg" ]
+    },
+    {
+      "id": 3,
+      "nume": "Construire bază tehnică auto Corp 2 și Corp 3",
+      "urls": [ "resources/portofoliu/baza tehnica auto/Construire bază tehnică auto Corp 2 și Corp 3 7.jpg" ]
+    },
+    {
+      "id": 4,
+      "nume": "Construire bază tehnică auto Corp 2 și Corp 3",
+      "urls": [ "resources/portofoliu/baza tehnica auto/Construire bază tehnică auto Corp 2 și Corp 3 8.jpg" ]
+    },
+    {
+      "id": 5,
+      "nume": "Construire bază tehnică auto Corp 2 și Corp 3",
+      "urls": [ "resources/portofoliu/baza tehnica auto/Construire bază tehnică auto Corp 2 și Corp 3 9.jpg" ]
+    },
+    {
+      "id": 6,
+      "nume": "Construire bază tehnică auto Corp 2 și Corp 3",
+      "urls": [ "resources/portofoliu/baza tehnica auto/Construire bază tehnică auto Corp 2 și Corp 3 10.jpg" ]
+    },
+    {
+      "id": 7,
+      "nume": "Construire bază tehnică auto Corp 2 și Corp 3",
+      "urls": [ "resources/portofoliu/baza tehnica auto/Construire bază tehnică auto Corp 2 și Corp 3 11.jpg" ]
+    },
+    {
+      "id": 8,
+      "nume": "Construire bază tehnică auto Corp 2 și Corp 3",
+      "urls": [ "resources/portofoliu/baza tehnica auto/Construire bază tehnică auto Corp 2 și Corp 3 12.jpg" ]
+    },
+    {
+      "id": 9,
+      "nume": "Construire bază tehnică auto Corp 2 și Corp 3",
+      "urls": [ "resources/portofoliu/baza tehnica auto/Construire bază tehnică auto Corp 2 și Corp 3 13.jpg" ]
+    },
+    {
+      "id": 10,
+      "nume": "Construire bază tehnică auto Corp 2 și Corp 3",
+      "urls": [ "resources/portofoliu/baza tehnica auto/Construire bază tehnică auto Corp 2 și Corp 3 1.jpg" ]
+    }
   ]
 
 }
