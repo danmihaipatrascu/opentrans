@@ -656,7 +656,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="index.html" />
     <Content Include="node_modules\angular\angular-csp.css" />
     <Content Include="node_modules\angular\angular.js" />
     <Content Include="node_modules\angular\angular.min.js" />
@@ -922,7 +921,6 @@
     <Content Include="resources\Productie si livrare beton 2.jpeg" />
     <Content Include="resources\Productie si livrare beton.jpeg" />
     <Content Include="resources\retea-apa.jpg" />
-    <Content Include="scripts\app2.js" />
     <Content Include="scripts\app.js" />
     <Content Include="scripts\contactController.js" />
     <Content Include="scripts\parcController.js" />
