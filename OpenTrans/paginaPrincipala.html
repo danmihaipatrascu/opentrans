@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="/resources/favicon.gif">
+    <meta name="fragment" content="!">
+    <title>Productie si livrare beton | Drumuri si poduri | Amenajari exterioare |Inchiriere utilaje | Constructii industriale | Lucrari de instalatii</title>
+
+    <meta name="description" content="OpenTrans Cluj Napoca
+           Inchiriere utilaje, Amenajari exterioare, Productie livrare beton, exectutie drumuri si poduri, Amenajari exterioare, Lucrari de instaltii, Constructii civile, industriale si agricole
+                    Autobetoniere,
+                    Autopompe,
+                    Pompe stationare,
+                    Autoutilitare,
+                    Utilaje dezapezire,
+                    Excavatoare,
+                    Buldoexcavatoare,
+                    Buldozere,
+                    Gredere,
+                    Incarcatoare frontale,
+                    Platforme ridicatoare,
+                    Macarale,
+                    Cilindri compactori,
+                    Stivuitoare,
+                    Foreze,
+                    Finisoare asfalt,
+                    Freze asfalt,
+                    Reciclatoare asfalt,
+                    Repartizoare agregate,
+                    Statii de sortare,
+                    Concasoare piatra,
+                    Compresoare," />
+
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/bootswatch/slate/bootstrap.min.css" />
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/angular/angular.min.js"></script>
+    <script src="node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/angular-ui-bootstrap/dist/ui-bootstrap.js"></script>
+    <script src="node_modules/angular-ui-bootstrap/dist/ui-bootstrap-tpls.js"></script>
+
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script> <!--see async load-->
+
+    <link rel="stylesheet" href="styles/global.css" />
+    <script src="scripts/app.js"></script>
+
+    <script src="scripts/contactController.js"></script>
+
+</head>
+<body ng-app="myApp">
+    <!--Now it Tells to AngularJS to be active in this portion of the page. In this case the entire document.(due to we apply on body tag ) -->
+    <div class="container">
+        <br />
+        <br />
+        <!-- by ng-view we create a space in this dynamic content come according to route by ng-view angular know that on which area content will set-->
+        <div ui-view="container"></div>
+        <div>
+            <div ng-include="'views/menu.html'"></div>
+            <br />
+            <nav class="footer row">
+                <div ng-include="'views/home.html'" ng-controller="HomeCtrl"></div>
+                <hr />
+                <div ng-include="'views/contact.html'" ng-controller="ContactCtrl">
+                </div>
+            </nav>
+        </div>
+    </div>
+</body>
+</html>
