@@ -925,12 +925,15 @@
     <Content Include="scripts\contactController.js" />
     <Content Include="scripts\parcController.js" />
     <Content Include="scripts\portofoliuController.js" />
-    <Content Include="sitemap.xml" />
+    <Content Include="sitemap.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="styles\global.css" />
     <Content Include="TODO.txt" />
     <Content Include="views\aboutus.html" />
     <Content Include="views\contact.html" />
     <Content Include="views\home.html" />
+    <Content Include="index.html" />
     <Content Include="views\menu.html" />
     <Content Include="views\modals\modalImage.html" />
     <Content Include="views\parc.html" />
